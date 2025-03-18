@@ -8,3 +8,5 @@ gem "jekyll-include-cache", group: :jekyll_plugins
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 
 gem "webrick", "~> 1.8"
+gem 'jekyll-sass-converter', '~> 2.2'
+gem 'bigdecimal', '~> 3.1.0' # 确保版本号与您的需求匹配
