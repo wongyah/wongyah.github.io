@@ -1,8 +1,9 @@
 ---
 title: 全球大厂的技术文档写作指南们！
-excerpt: 微软、谷歌、IBM 等数十家大厂的 Style Guides，全在这里了！
 header:
-  overlay_color: "#7a8288"
+  teaser: https://picx.zhimg.com/70/v2-38ae4e9727197e61193b0dc9598d37fc_1440w.avis?source=172ae18b&biz_tag=Post
+  overlay_image: https://picx.zhimg.com/70/v2-38ae4e9727197e61193b0dc9598d37fc_1440w.avis?source=172ae18b&biz_tag=Post
+  overlay_filter: 0.5
 tags: 学习资源
 downloadkey: PDF指南
 ---

@@ -1,9 +1,9 @@
 ---
 title: 编程小白，借助AI大模型真能摇身一变成为“伪程序员”吗?
-excerpt: 有了 AI 大模型，学习编程的难度已经大大降低了。即使是零基础的小白，也可以做到一些看似遥不可及的事情。
 header:
-  overlay_image: https://pic1.zhimg.com/70/v2-deedee5ab1a01e1263f840e5e0b35856_1440w.avis?source=172ae18b&biz_tag=Post
-  overlay_filter: 0.50
+  teaser: https://pica.zhimg.com/70/v2-648b9a06cf14d4f68bc7652b1f950bde_1440w.avis?source=172ae18b&biz_tag=Post
+  overlay_image: https://pica.zhimg.com/70/v2-648b9a06cf14d4f68bc7652b1f950bde_1440w.avis?source=172ae18b&biz_tag=Post
+  overlay_filter: 0.5
 tags: 人工智能
 ---
 

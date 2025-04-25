@@ -1,9 +1,9 @@
 ---
 title: 技术传播职业认证，了解一下?
-excerpt: 带你了解技术传播在美国的发展现状、美国的认证体系、以及技术传播职业认证 (CPTC) 的详情与价值。
 header:
-  overlay_image: https://picx.zhimg.com/70/v2-0f6affeeab6a439b8f152bbcbba8ade3_1440w.avis?source=172ae18b&biz_tag=Post
-  overlay_filter: 0.25
+  teaser: https://picx.zhimg.com/70/v2-38ae4e9727197e61193b0dc9598d37fc_1440w.avis?source=172ae18b&biz_tag=Post
+  overlay_image: https://picx.zhimg.com/70/v2-38ae4e9727197e61193b0dc9598d37fc_1440w.avis?source=172ae18b&biz_tag=Post
+  overlay_filter: 0.5
 tags: 职业发展
 ---
 

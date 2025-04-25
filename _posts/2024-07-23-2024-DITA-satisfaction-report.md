@@ -1,9 +1,9 @@
 ---
 title: 2017-2024年DITA满意度调查报告
-excerpt: 十年来，DITA 用户稳定增长。熟练使用 DITA 的人越来越多，但结构化内容团队的建设和管理依然不容乐观。
 header:
-  overlay_image: https://pic1.zhimg.com/70/v2-b637c2bdecf63ae73c3d88409b54ee34_1440w.avis?source=172ae18b&biz_tag=Post
-  overlay_filter: 0.50
+  teaser: https://pica.zhimg.com/70/v2-97c95a9e878c313a31675db48a335e94_1440w.avis?source=172ae18b&biz_tag=Post
+  overlay_image: https://pica.zhimg.com/70/v2-97c95a9e878c313a31675db48a335e94_1440w.avis?source=172ae18b&biz_tag=Post
+  overlay_filter: 0.5
 tags: DITA
 ---
 

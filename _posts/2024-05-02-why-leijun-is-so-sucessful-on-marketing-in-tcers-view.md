@@ -1,9 +1,9 @@
 ---
 title: 从技术传播角度看，雷军营销“神”在哪?
-excerpt: 用雷军现身说法，带你一起了解文本易读性、评测方法和评测工具。
 header:
-  overlay_image: https://picx.zhimg.com/70/v2-a2c229e6fedd303020d30e528896323a_1440w.avis?source=172ae18b&biz_tag=Post
-  overlay_filter: 0.25
+  teaser: https://picx.zhimg.com/70/v2-24e0c9d395747dc84edefbdf58b585fa_1440w.avis?source=172ae18b&biz_tag=Post
+  overlay_image: https://picx.zhimg.com/70/v2-24e0c9d395747dc84edefbdf58b585fa_1440w.avis?source=172ae18b&biz_tag=Post
+  overlay_filter: 0.5
 tags: 行业八卦
 math: true
 ---

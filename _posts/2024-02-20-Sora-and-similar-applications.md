@@ -1,13 +1,18 @@
 ---
 title: Sora 并非首个视频生成模型，为何还能一出场就惊艳了所有人?
-description: 总结 Sora及其竞品的功能特性，全面展现人工智能在视频制作领域的发展现状。
+header:
+  teaser: https://picx.zhimg.com/70/v2-648b9a06cf14d4f68bc7652b1f950bde_1440w.avis?source=172ae18b&biz_tag=Post
+  overlay_image: https://picx.zhimg.com/70/v2-648b9a06cf14d4f68bc7652b1f950bde_1440w.avis?source=172ae18b&biz_tag=Post
+  overlay_filter: 0.5
 tags: 文档技术
 ---
 
 上周四，OpenAI 发布了首个视频生成模型 Sora。栩栩如生的高清视频让众多网友惊呼“真假难辨，以后连视频证据都不可信了吧”！
 
-<div style="margin: 2em 10px;">
-  <video width="100%" height="auto" controls="controls" src="https://vdn6.vzuu.com/HD/23450c92-cf93-11ee-b01f-d246a47ad65d-v8_f2_t1_2WZXfTu4.mp4?pkey=AAUwoGA2TO4RAbZN9c9rnhTb9KyCnNqRp6hl892ISf5o9igmGCizoY2donSrAe7HJL7duq_yRwTXAeg9g71O4Cmf&c=avc.8.0&f=mp4&pu=e59e796c&bu=1513c7c2&expiration=1708593331&v=ks6&pp=ChMxNDAxNjIzODY1NzM5NTc5MzkyGGMiC2ZlZWRfY2hvaWNlMhMxMzY5MDA1NjA4NTk5OTA0MjU3PXu830Q%3D&pf=Web&pt=zhihu"></video>
+<div>
+  <video width="100%" height="auto" controls="controls" src="">
+  <source src="https://vdn6.vzuu.com/HD/23450c92-cf93-11ee-b01f-d246a47ad65d-v8_f2_t1_2WZXfTu4.mp4?pkey=AAUwoGA2TO4RAbZN9c9rnhTb9KyCnNqRp6hl892ISf5o9igmGCizoY2donSrAe7HJL7duq_yRwTXAeg9g71O4Cmf&c=avc.8.0&f=mp4&pu=e59e796c&bu=1513c7c2&expiration=1708593331&v=ks6&pp=ChMxNDAxNjIzODY1NzM5NTc5MzkyGGMiC2ZlZWRfY2hvaWNlMhMxMzY5MDA1NjA4NTk5OTA0MjU3PXu830Q%3D&pf=Web&pt=zhihu" type="video/mp4">
+  </video>
 </div>
 
 作为一个正对视频号跃跃欲试的技术传播小号主，自然知道视频制作的门槛。之前，哪怕只是想做个好一点的动图，也需要花好长时间。每次动手前，我都得进行一下心理建设！
@@ -17,7 +22,7 @@ tags: 文档技术
 本文将从一个普通群众的角度总结一下 Sora 及其竞品的功能特性，从而更全面地展现人工智能在视频制作领域的发展现状，说不定能帮助很多像我一样的小伙伴挑选到更顺手的工具呢！
 
 
-# Sora
+## Sora
 
 根据 OpenAI 的技术报告，Sora 可以根据用户输入的提示词、图片和视频等素材自动生成视频。
 
@@ -37,7 +42,7 @@ Sora 生成的视频最长可达一分钟，视频尺寸可以是 1920×1080p（
 
 > 红队是网络安全中的术语，指通过模拟真实的攻击手法测试和评估系统弱点的安全专家团队。
 
-# 其他视频生成模型
+## 其他视频生成模型
 
 Sora 并不是地球上的首个视频生成模型。OpenAI 发布 Sora 之前，Runway AI、Stability AI、 MoonValley AI 和 Pika Labs AI 等许多创业公司早已发布了类似的视频生成模型。
 
@@ -64,7 +69,7 @@ Sora 并不是地球上的首个视频生成模型。OpenAI 发布 Sora 之前�
 [MoonValley]: https://moonvalley.ai/ "MoonValley官网"
 [Pika]: https://pikalabsai.org/ "Pika官网"
 
-# AI 辅助视频生成工具
+## AI 辅助视频生成工具
 
 除了视频生成模型，还有一类基于素材库的视频生成工具虽然智能程度不高，却比较实用。知乎曾经上线过类似的功能可以一键【生成视频】。*不过，知乎的这个功能现在不能用了。*{: style="color: rgb(150, 150, 150); font-style: normal;"}
 

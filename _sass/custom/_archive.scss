@@ -1,0 +1,79 @@
+/* ==========================================================================
+   ARCHIVE
+   ========================================================================== */
+
+.archive { 
+  @include breakpoint($large) {
+    float: left;
+  }  
+}
+
+.archive__item { 
+  // background-color: $page-background-color;
+  padding-bottom: 1em;
+}
+
+.archive__item-teaser {
+  border-radius: $border-radius-card;
+  box-shadow: $box-shadow-page;
+  
+}
+
+/*
+  Grid view
+  ========================================================================== */
+  
+.grid__item {
+  margin-bottom: 2em;
+
+  @include breakpoint($small) {
+    float: inline-start;
+    width: span(5 of 10);
+
+    &:nth-child(2n + 1) {
+      clear: both;
+      margin-inline-start: 0;
+    }
+
+    &:nth-child(2n + 2) {
+      clear: none;
+      margin-inline-start: gutter(of 10);
+    }
+  }
+
+  @include breakpoint($medium) {
+    margin-inline: 0; /* override margin*/
+    width: span(6 of 12);
+
+    &:nth-child(2n + 1) {
+      clear: both;
+      margin-inline-start: 0;
+    }
+
+    &:nth-child(2n + 2) {
+      clear: none;
+      margin-inline-start: gutter(1 of 12);
+    }
+
+  }
+  
+  .archive__item-title {
+    margin: 1em 1rem 0.5em;
+  }
+  
+  .archive__item-excerpt {
+    margin: 0.5em 1rem;
+  }
+  
+  .archive__item-teaser {
+    @include breakpoint($small) {
+      max-height: 100%;
+    }
+      @include breakpoint($medium) {
+      max-height: 100%;
+    }
+  }
+}
+
+
+

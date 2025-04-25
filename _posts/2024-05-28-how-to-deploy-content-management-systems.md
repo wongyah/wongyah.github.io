@@ -1,9 +1,9 @@
 ---
 title: 我该怎样部署内容管理系统，私有化部署还是云服务模式?
-excerpt: 资深专家深入探讨内容管理系统的主要部署方式、优缺点、定制开发的注意事项等。
 header:
-  overlay_image: https://pic1.zhimg.com/70/v2-4a3b00123557e1be808c2cf1fed15b65_1440w.avis?source=172ae18b&biz_tag=Post
-  overlay_filter: 0.25
+  teaser: https://picx.zhimg.com/70/v2-530bbc93198a3dc6e44f487db24ed916_1440w.avis?source=172ae18b&biz_tag=Post
+  overlay_image: https://picx.zhimg.com/70/v2-530bbc93198a3dc6e44f487db24ed916_1440w.avis?source=172ae18b&biz_tag=Post
+  overlay_filter: 0.5
 tags: 软件工具
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: "华为的技术资料是如何打造出来的?"
 header:
-  overlay_image: https://pica.zhimg.com/70/v2-03a6fc5da27be26cd7c1d72bbb730da7_1440w.avis?source=172ae18b&biz_tag=Post
-  overlay_filter: 0.25
-excerpt: 前华为经理详细讲解华为内部技术文档和技术翻译的工作流程。
+  teaser: https://pic1.zhimg.com/70/v2-8192b9c5961a767bade2367012ccf824_1440w.avis?source=172ae18b&biz_tag=Post
+  overlay_image: https://pic1.zhimg.com/70/v2-8192b9c5961a767bade2367012ccf824_1440w.avis?source=172ae18b&biz_tag=Post
+  overlay_filter: 0.5
 tags: 技术写作
 ---
 

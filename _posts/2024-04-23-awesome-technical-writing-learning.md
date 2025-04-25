@@ -1,6 +1,9 @@
 ---
 title: 我也在GitHub上开了一个Awesome系列的资源库：神奇的技术写作研习路
-description: 技术写作资源精选，免费！
+header:
+  teaser: https://picx.zhimg.com/70/v2-e159e97e304e857639cac1d49d396824_1440w.avis?source=172ae18b&biz_tag=Post
+  overlay_image: https://picx.zhimg.com/70/v2-e159e97e304e857639cac1d49d396824_1440w.avis?source=172ae18b&biz_tag=Post
+  overlay_filter: 0.5
 tags: 学习资源
 ---
 
@@ -16,7 +19,7 @@ tags: 学习资源
 
 于是，我先调查了一下 GitHub 上技术写作类资源库的大致情况，发现我收藏的资源和分类整理的思路与现有的资源库都不一样。然后，我就创建了一个自己的 GitHub 存储库，还制作了一个小网站。
 
-# 技术写作类 GitHub 资源库概况
+## 技术写作类 GitHub 资源库概况
 
 目前，GitHub 上共有 311 个公开存储库标记了 "technical-writing"（话题标签）。按星数 (Star) 排名前十位的存储库中，有 4 个资源（收集）库。
 
@@ -30,7 +33,7 @@ tags: 学习资源
 
 《技术写作资源》 ([Technical Writing Resources](https://github.com/CynthiaPeter/Technical-Writing-Resources)) 按照资源的用途分类，比如技术写作入门、文档类型（即编写API 文档、入门教程、博客文章等不同类型文章的资源子类）、软件工具等。《技术写作资源》创建时间较晚，但星数增长较快，极具流行潜力。
 
-# 我的 GitHub 资源库
+## 我的 GitHub 资源库
 
 从 GitHub 上现有的技术写作资源库可以看出，每个资源库都琳琅满目。虽然各个库之间难免有些资源是雷同的，但仍然各具特色。
 
@@ -45,7 +48,7 @@ tags: 学习资源
 GitHub 存储库：[Awesome Technical Writing Learning](https://github.com/wongyah/awesome-technical-writing-learning)  
 网站：[Awesome Technical Writing Learning](https://resources.docsimpo.work/)
 
-# 贡献指南
+## 贡献指南
 
 如今，技术写作涉及的领域越来越广，新的知识、新的资源每天都在产生。
 
@@ -61,7 +64,7 @@ GitHub 存储库：[Awesome Technical Writing Learning](https://github.com/wongy
 
 新库开张，急需背书。如果你也喜欢这个资源库，顺便去 [GitHub](https://github.com/wongyah/awesome-technical-writing-learning) 点个星呗！
 
-# 参考资料 {#refs}
+## 参考资料 {#refs}
 {:.no_toc}
 
 1. [The Documentation Compendium](https://github.com/kylelobo/The-Documentation-Compendium)
