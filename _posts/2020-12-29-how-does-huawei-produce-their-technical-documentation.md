@@ -4,7 +4,7 @@ header:
   teaser: https://pic1.zhimg.com/70/v2-8192b9c5961a767bade2367012ccf824_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_image: https://pic1.zhimg.com/70/v2-8192b9c5961a767bade2367012ccf824_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_filter: 0.5
-tags: 技术写作
+tags: 案例研究
 ---
 
 昨天下午，前华为翻译中心南京分部经理、华为 2012 实验室南研分部部长张建农先生做客 2020 年中国技术传播论坛，分享了华为在技术写作和技术翻译方面的诸多实践经验，也为技术写作和技术翻译方面的从业者指明了努力方向。

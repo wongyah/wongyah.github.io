@@ -4,7 +4,7 @@ header:
   teaser: https://picx.zhimg.com/70/v2-24e0c9d395747dc84edefbdf58b585fa_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_image: https://picx.zhimg.com/70/v2-24e0c9d395747dc84edefbdf58b585fa_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_filter: 0.5
-tags: 行业八卦
+tags: 技术写作
 math: true
 ---
 

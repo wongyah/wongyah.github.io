@@ -4,7 +4,7 @@ header:
   teaser: https://pica.zhimg.com/70/v2-97c95a9e878c313a31675db48a335e94_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_image: https://pica.zhimg.com/70/v2-97c95a9e878c313a31675db48a335e94_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_filter: 0.5
-tags: 调查报告
+tags: 行业资讯
 ---
 
 近日，著名的开发者问答社区 Stack Overflow 发布了最新的开发者年度调查报告。该调查于每年 5~6 月份进行，已经持续 14 年了。

@@ -4,7 +4,7 @@ header:
   teaser: https://picx.zhimg.com/70/v2-648b9a06cf14d4f68bc7652b1f950bde_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_image: https://picx.zhimg.com/70/v2-648b9a06cf14d4f68bc7652b1f950bde_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_filter: 0.5
-tags: 文档技术
+tags: 人工智能
 ---
 
 上周四，OpenAI 发布了首个视频生成模型 Sora。栩栩如生的高清视频让众多网友惊呼“真假难辨，以后连视频证据都不可信了吧”！

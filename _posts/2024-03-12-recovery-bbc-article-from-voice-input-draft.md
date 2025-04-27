@@ -4,7 +4,7 @@ header:
   teaser: https://pic1.zhimg.com/70/v2-cf3b3c780364fca8b80b528081507df8_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_image: https://pic1.zhimg.com/70/v2-cf3b3c780364fca8b80b528081507df8_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_filter: 0.5
-tags: 文档技术
+tags: 人工智能
 ---
 
 前段时间，我无意间搜到一篇来自 BBC Future 的科技文章《走进说明书的世界》([Inside the World of Instruction Manuals](http://www.bbc.com/future/story/20180403-inside-the-world-of-instruction-manuals))。

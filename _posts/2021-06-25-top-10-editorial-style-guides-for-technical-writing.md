@@ -4,7 +4,7 @@ header:
   teaser: https://picx.zhimg.com/70/v2-38ae4e9727197e61193b0dc9598d37fc_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_image: https://picx.zhimg.com/70/v2-38ae4e9727197e61193b0dc9598d37fc_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_filter: 0.5
-tags: 学习资源
+tags: 技术写作
 downloadkey: PDF指南
 ---
 
