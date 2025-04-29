@@ -13,6 +13,11 @@
   }
 }
 
+.page__title {
+  color: $primary-color;
+  line-height: 2em;
+}
+
 .page__content {
   background-color: $page-background-color;
   border-radius: $border-radius-page;

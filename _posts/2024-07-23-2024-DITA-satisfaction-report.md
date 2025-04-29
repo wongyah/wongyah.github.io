@@ -4,7 +4,7 @@ header:
   teaser: https://pica.zhimg.com/70/v2-97c95a9e878c313a31675db48a335e94_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_image: https://pica.zhimg.com/70/v2-97c95a9e878c313a31675db48a335e94_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_filter: 0.5
-tags: DITA
+tags: 行业新闻 DITA
 ---
 
 DITA (Darwin Information Typing Architecture) 原是 IBM 的技术文档专家开发的内部标准，2004 年 IBM 将其捐赠给了结构化信息标准促进组织 (OASIS)。

@@ -4,7 +4,7 @@ header:
   teaser: https://pic1.zhimg.com/70/v2-53fc3094ab61d67cf87c98ad9f6746aa_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_image: https://pic1.zhimg.com/70/v2-53fc3094ab61d67cf87c98ad9f6746aa_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_filter: 0.5
-tags: 行业资讯
+tags: 行业新闻 DITA
 ---
 
 LearningDITA 是美国内容策略咨询公司 Scriptorium 开发的一门 DITA 入门课程。
@@ -17,7 +17,7 @@ LearningDITA 是美国内容策略咨询公司 Scriptorium 开发的一门 DITA 
 
 改版后的 learningDITA 有了美观的界面和导航设计，更有在线课程的感觉。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/h11VMG8jwac4XRdZQZLOcGjhj4urxx9AslWLUd51iaXNvq6TicUGhVT0NsXoJjvOyYict84iauzzibEr5HZLjQRdA5g/640?wx_fmt=png&amp;from=appmsg){:standalone}
+![](https://pic2.zhimg.com/v2-db12e0d16c98353cce28bbf5e3ae5d17_1440w.jpg){:standalone}
 
 不过，它要收费了！
 
@@ -25,12 +25,10 @@ LearningDITA 是美国内容策略咨询公司 Scriptorium 开发的一门 DITA 
 
 如果一次性购买全部课程，可以享受 20 美元的优惠。也就是说，支付 100 美元（大约 730元人民币）可购买全部课程。
 
-听到这儿，想学 DITA 的小伙伴们也别慌。现在，learningDITA 只上线了四节课程，六个月内免费开放。课程新址如下：\\
-<https://store.scriptorium.com/shop/>
+听到这儿，想学 DITA 的小伙伴们也别慌。现在，learningDITA 只上线了四节课程，六个月内免费开放。课程新址如下：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/h11VMG8jwac4XRdZQZLOcGjhj4urxx9A5JvBbYEDNVzcicmXXBicicWFjFnxycHicL35Q4gfONibqgPkp1w62rwYSrw/640?wx_fmt=png&amp;from=appmsg){:standalone}
+[![](https://pic4.zhimg.com/v2-b1554f18f68986b678fd730c9629f255_1440w.jpg){:standalone}](https://store.scriptorium.com/shop/)
 
-另外，learningDITA 也是 GitHub 上的一个开源项目。该课程使用 DITA 中的教学和培训规范编写。你可以在它的存储库中看到该课程的所有 DITA 文件：\\
-<https://github.com/ScriptoriumDev/LearningDITA>
+另外，LearningDITA 也是 GitHub 上的一个开源项目。该课程使用 DITA 中的教学和培训规范编写。你可以在 [LearningDITA 的项目存储库](https://github.com/ScriptoriumDev/LearningDITA) 中看到该课程的所有 DITA 文件。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/h11VMG8jwac4XRdZQZLOcGjhj4urxx9AsgLibfa6o8ssokg4MZPAJTwLnP3fbdcdL4qFxK1BiaXbFhel4H8rSIqQ/640?wx_fmt=png&amp;from=appmsg){:standalone}
+![](https://pic4.zhimg.com/v2-848ca9525ea7703d9da0ecaefb5193d1_1440w.jpg){:standalone}

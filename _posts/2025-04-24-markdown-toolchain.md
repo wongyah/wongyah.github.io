@@ -4,7 +4,7 @@ header:
   teaser: https://picx.zhimg.com/70/v2-c508b2b4dc7244e24da889713b1f0b24_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_image: https://picx.zhimg.com/70/v2-c508b2b4dc7244e24da889713b1f0b24_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_filter: 0.5
-tags: 软件工具
+tags: 软件工具 Markdown
 ---
 
 以前，我发布过一篇关于DITA的新手文章《[当文档结构化大势已成，落单的我们该何去何从?](https://mp.weixin.qq.com/s/xmtUqpHSUSEDDik_jLNuSw)》。
@@ -25,13 +25,13 @@ tags: 软件工具
 
 上手 Markdown 的第一步，一般是给自己选个好用的编辑器。支持 Markdown 的编辑器很多，大体上分为以下几类：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/h11VMG8jwafUPz7NvOYYdGuwyZsd0DTez2yTPI2QCm4l8EPp2QajaK5PupbAcIcXsFKUTzkaAclcuGqSBBEUNQ/640?wx_fmt=png&amp;from=appmsg){:standalone}
+![](https://mmbiz.qpic.cn/mmbiz_png/h11VMG8jwafUPz7NvOYYdGuwyZsd0DTez2yTPI2QCm4l8EPp2QajaK5PupbAcIcXsFKUTzkaAclcuGqSBBEUNQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1){:standalone}
 
 **支持 Markdown 的笔记软件**，比如有道云笔记、腾迅文档、Obsidian 等。
 
 笔记软件有比较丰富的文件管理功能，支持 Markdown 基本语法和少数扩展语法。笔记软件一般都有图形工具栏，即使不熟悉 Markdown 语法，也可以流畅地使用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/h11VMG8jwafUPz7NvOYYdGuwyZsd0DTegGPQTBDApjE69kicicEI0wklav16pnoHtonLxLZveXhelA3go4Q0D9Mg/640?wx_fmt=png&amp;from=appmsg){:standalone}
+![](https://pica.zhimg.com/v2-d23098c2d3f4c67dac3a22029bac581e_1440w.jpg){:standalone}
 
 **在线 Markdown 编辑器**，比如 ToMarkdown、Arya 和 Dillinger 等。
 
@@ -41,7 +41,7 @@ Markdown 在线编辑器的数量特别多，主打一个方便快捷、即开�
 
 不过，在线编辑器的界面设计和菜单功能看起来比较直白。如果你对Markdown 编辑器的功能要求比较单一，可以好好探索一下。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/h11VMG8jwafUPz7NvOYYdGuwyZsd0DTe3wE1jLXoQMZwzxdx4GRauLE3jiat3CsOJrhKMn1NqoI4ynC6Fg9YD2Q/640?wx_fmt=png&amp;from=appmsg){:standalone}
+![](https://pic2.zhimg.com/v2-44b40b3da4a7567c1c787a27122ee18f_1440w.jpg){:standalone}
 
 **桌面 Markdown 编辑器**，比如 Typora、Zettlr 和 MarkText 等。
 
@@ -49,7 +49,7 @@ Markdown 在线编辑器的数量特别多，主打一个方便快捷、即开�
 
 > Typora 是收费软件，Zettir 和 MarkText 是开源软件。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/h11VMG8jwafUPz7NvOYYdGuwyZsd0DTeKNTg426GIPrcrrlvzNhYx7R4LOjgibWbibCs1aqRibJxibApSdLuVfcibsw/640?wx_fmt=png&amp;from=appmsg){:standalone}
+![](https://pic1.zhimg.com/v2-ccafcda35e7ee4303c534ee9b1a67938_1440w.jpg){:standalone}
 
 **支持 Markdown 的代码编辑器**，如 Visual Studio Code (VS Code)、Atom 等。
 
@@ -75,25 +75,25 @@ Markdown 原本是一个将文本文件转换为HTML的转换器。没想到，�
 
 以下是几种常见的 Markdown 转换器：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/h11VMG8jwafUPz7NvOYYdGuwyZsd0DTe08tOFl9VSqWnXUKFm6NytNoEexZXJWAuUtVnNG8ZmGPBQMLeslLstg/640?wx_fmt=png&amp;from=appmsg){:standalone}
+![](https://pic1.zhimg.com/v2-e512d0558ee2d836ea17500f43ad4b02_1440w.jpg){:standalone}
 
 **kramdown**，Jekyll 默认使用的 Markdown 转换器。kramdown 支持元素属性设置。也就是说，你可以使用键值对给任何一个元素添加任何属性。一些常用属性还有专门的简化写法，比如 ID 和类。
 
 有了元素属性，就相当于给元素贴上了分类标签。这就意味着，你拥有了自定义样式的最大权限和自由度，甚至可以为某个特定的元素单独设置格式。不瞒你说，我就最喜欢 kramdown 的这一点。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/h11VMG8jwafUPz7NvOYYdGuwyZsd0DTeribUu0hmAelVJickrGicyakKWtHuAqabLh7V9URcuv7MAKrULiaQO1iaS7Q/640?wx_fmt=png&amp;from=appmsg){:standalone}
+![](https://pic2.zhimg.com/v2-44269b01bb07d6cbbf0029b57ff52de3_1440w.jpg){:standalone}
 
 **Pandoc**，以支持的文件格式多而著称。很多编辑器和静态网站生成器都支持 Pandoc，比如 Typora、VS Code（需要安装插件）和 Hugo。
 
 Pandoc 有一些非常独特的 Markdown 语法。比如，上标和下标，可以保留原始格式的预格式文本，可以将几个块元素组合在一起的内容分区，以及可以转换为 `<span>` 元素并自由添加属性的自定义行内文本等。不瞒你说，我最喜欢的是上下标的语法，简单实用。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/h11VMG8jwafUPz7NvOYYdGuwyZsd0DTeYQmCZePqK9KSG3P0ZSiabicM4IoKOa4MNOLK4BAfxicUoGppLicVJPPUmQ/640?wx_fmt=png&amp;from=appmsg){:standalone}
+![](https://pic1.zhimg.com/v2-9ef69d380fde4af9e517185396859b80_1440w.jpg){:standalone}
 
 **goldmark**，Hugo 默认使用的 Markdown 转换器。goldmark 并不是一个能独立运行的软件，而是一个用 Go 语言编写的库。
 
 开发者可以在自己的程序中调用 goldmark，还可以通过 goldmark 的扩展机制自定义 Markdown 语法。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/h11VMG8jwafUPz7NvOYYdGuwyZsd0DTewAq0TKS6lib1KGLj8RXwA86fAXbxZxYicgdgl6WE51t6LWtrsgouEEyw/640?wx_fmt=png&amp;from=appmsg){:standalone}
+![](https://pic3.zhimg.com/v2-f63f80f8d290dcb3082b3d81200a131e_1440w.jpg){:standalone}
 
 **Python-Markdown**，MkDocs 默认使用的 Markdown 转换器。Python-Markdown 是用 Python 语言编写的库，同时也提供了一些可以在命令行运行的简单命令来直接转换 Markdown 文件。
 
@@ -115,7 +115,7 @@ VS Code 可以通过自带的转换器将 Markdown 文件转换为 HTML。要导
 
 以下是几种常见的支持 Markdown 的静态网站生成器：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/h11VMG8jwafUPz7NvOYYdGuwyZsd0DTe5TKuk1oCAMAaO47OeOAOczmldoGfDZBg8vH3MGJLMPL6J5f0kib3Slg/640?wx_fmt=png&amp;from=appmsg){:standalone}
+![](https://pic3.zhimg.com/v2-c60ccfae9181b6d06f57afeb37a10598_1440w.jpg){:standalone}
 
 **Jekyll**，GitHub 主页原生支持的静态网站生成器。在 GitHub 上，使用 Jekyll 创建技术博客或文档网站非常方便。你甚至不需要在电脑上安装 Jekyll，只要按照 GitHub 官方教程亦步亦趋地做一下设置，再填写个 Readme 文件，就能发布成一个单页面的小网站了！
 
@@ -127,7 +127,7 @@ VS Code 可以通过自带的转换器将 Markdown 文件转换为 HTML。要导
 
 GitHub 上高赞的技术文档类 Jekyll 主题有 Just The Docs、Minimal Mistakes 等。Just The Docs 主题简洁大方，容易上手。Minimal Mistakes 主题的扩展性好，可以灵活的定制适合自己的样式。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/h11VMG8jwafUPz7NvOYYdGuwyZsd0DTevqLlrBWibpichDrZPJWwKfvNA4Lgabla18vXyx2rOrI3VkkiarrCqZYbA/640?wx_fmt=png&amp;from=appmsg){:standalone}
+![](https://picx.zhimg.com/v2-773cfdb7de947f165a92b139735b2d9f_1440w.jpg){:standalone}
 
 **Hugo**，以速度著称的静态网站生成器。据说，使用 Jekyll 生成网站的平均用时大约为 30 秒，而使用 Hugo 生成网站的平均用时仅为一秒左右。网站中的内容越多，Hugo 的速度优势越明显。
 
@@ -139,7 +139,7 @@ Hugo 使用的模板语言是 Go 语言的两个标准软件包：文本模板 (
 
 顺便提一句，[著名的前端工具包 Bootstrap][Bootstrap] 在其官网中同时使用了 Jekyll 和 Hugo。Bootstrap 的文档网站使用的是 Jekyll ，博客网站使用的是 Hugo。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/h11VMG8jwafUPz7NvOYYdGuwyZsd0DTeIlFUM5hoBoP1kjrDmGI9zD4AtbVvqoxAdmWYiae1e85zw0RV7dSh0Ug/640?wx_fmt=png&amp;from=appmsg){:standalone}
+![](https://pic1.zhimg.com/v2-17c47904856da69ee2bba755d8fb8542_1440w.jpg){:standalone}
 
 **MkDocs**，专为技术文档网站设计的静态网站生成器。在文档发布平台 Read the Docs 推荐使用的静态网站生成器中，MkDocs 排在第一位。
 
@@ -163,7 +163,7 @@ MkDocs 有两个内置的主题：mkdocs 和 readthedocs。MkDocs 默认使用�
 
 以下是几个常见的静态内容发布平台：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/h11VMG8jwafUPz7NvOYYdGuwyZsd0DTeMgsntZ2xSgp5ZawEWgfIAuhlv2jgh25auyvBic6qFMGVkSpvgUAT1icg/640?wx_fmt=png&amp;from=appmsg){:standalone}
+![](https://pic4.zhimg.com/v2-b8c6a3fe59dcee93ab6affd81d10c687_1440w.jpg){:standalone}
 
 **GitHub 主页**，GitHub 提供的静态网站部署功能。GitHub 主页不只能部署 Jekyll 生成的网站，也可以部署其他静态网站生成器生成的网站。区别只在于，在 GitHub 主页上部署 Jekyll 网站最容易。
 
@@ -175,7 +175,7 @@ GitHub 主页原生支持 13 个 Jekyll 主题，只要在配置文件中使用�
 
 除了 GitHub，其他的代码托管平台也有类似于 GitHub 主页的功能，比如 GitLab、Gitee（码云）。这些平台的主页功能和部署方法与 GitHub 主页大同小异，只是没有那么完善、流畅和便捷罢了。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/h11VMG8jwafUPz7NvOYYdGuwyZsd0DTekTNKfR7rvIzRiatiaFHpOzia6vnLEK4NJq369fe8mtoLzgOHWPBLoHpkA/640?wx_fmt=png&amp;from=appmsg){:standalone}
+![](https://pica.zhimg.com/v2-4f68e59534e4aa046a4a38503caf4ed6_1440w.jpg){:standalone}
 
 **Read the Docs**，一个专门的静态文档网站部署平台。你可以将文档网站的源代码存储到 GitHub、GitLab 或 Bitbucket 等支持 Git 协议的代码托管平台，然后使用 Read the Docs 部署文档网站。
 
@@ -185,7 +185,7 @@ Read the Docs 也可以部署其他静态网站生成器生成的网站。只不
 
 除了常规的网站部署功能以外，Read the Docs 有很多专门针对文档网站的特色功能。例如，你可以在 Read the Docs 同时生成多种格式的文档，包括文档网站 (HTML)、PDF、电子书 (ePub) 和 HTML 压缩包等；你可以在多个项目之间进行内容复用，甚至可以包括一些特定的外部站点。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/h11VMG8jwafUPz7NvOYYdGuwyZsd0DTeqUH2EgkOIWCNqYmZrXicibjTbQ3k1c93kmRibAcBp2sx27iaQCSx9PJAsQ/640?wx_fmt=png&amp;from=appmsg){:standalone}
+![](https://pica.zhimg.com/v2-a99be791963156c1b33199541d60f550_1440w.jpg){:standalone}
 
 **GitBook**，一个专门的文档网站创建、托管和部署平台。GitBook 虽然也有免费版本，但把它看作成熟的商用产品更合适一些。
 

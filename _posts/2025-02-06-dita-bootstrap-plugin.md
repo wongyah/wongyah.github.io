@@ -4,7 +4,7 @@ header:
   teaser: https://picx.zhimg.com/70/v2-1bc6fc6d0949fa8d30b57ff4706947d8_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_image: https://picx.zhimg.com/70/v2-1bc6fc6d0949fa8d30b57ff4706947d8_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_filter: 0.5
-tags: 软件工具
+tags: 软件工具 DITA
 ---
 
 自带的模板太丑，一直是 DITA 广为诟病的原因之一。
@@ -17,26 +17,23 @@ tags: 软件工具
 
 年前，我为了准备一个 DITA 培训课程，打算收集和制作一些中文的样本手册作为练习材料。总不能让大家只看源代码不见“成品”吧，还是得做成适合阅读的形式才好。
 
-本来我还在为这事儿焦虑着呢，估计写个像样的发布模板得花不少时间吧。不成想，开年见喜，一搜就搜到一个叫 DITA Bootstrap 的神仙插件，开箱即用！
-
-DITA Bootstrap 存储库：\\
-<https://github.com/infotexture/dita-bootstrap>
+本来我还在为这事儿焦虑着呢，估计写个像样的发布模板得花不少时间吧。不成想，开年见喜，一搜就搜到一个叫 [DITA Bootstrap](https://github.com/infotexture/dita-bootstrap) 的神仙插件，开箱即用！
 
 ## 什么是Bootstrap?
 
 打开任何一个网页，在右键菜单中选择【检查】，你就会看到这个网页的源代码。
 
-![](https://mmbiz.qpic.cn/mmbiz_jpg/h11VMG8jwaeYTF8uFXLd0SYHtKzg4YeicauebFSVZykHafnt3KWOctFbL9aymJxoYJUgep0B9MiaEuwUxGwchf3w/640?wx_fmt=webp&amp;from=appmsg){:standalone}
+![](https://pic2.zhimg.com/v2-c8f8dc87f43e3e7a7adb9cb772505851_r.jpg){:standalone}
 
 源代码由两部分组成：左边是 HTML 代码，里边包含网页的结构和内容；右边是 CSS 样式，用来定义网页的外观和格式。
 
-Bootstrap 就是一套现成的 CSS 样式工具包。有了这套工具包，你就不用从零开始写 CSS 样式表了，直接把 Bootstrap 里写好的样式用在 HTML 元素上就行。开箱即用！
+[Bootstrap](https://getbootstrap.com/) 就是一套现成的 CSS 样式工具包。有了这套工具包，你就不用从零开始写 CSS 样式表了，直接把 Bootstrap 里写好的样式用在 HTML 元素上就行。开箱即用！
 
 可能有些小伙伴还没来得及好好研究 CSS 呢。我们来看个小例子，保准能让你秒懂！
 
 假设我们想给博客文章的头图都添加上一个圆角边框，像这样：
 
-<img src="https://mmbiz.qpic.cn/mmbiz_jpg/h11VMG8jwacCs1micXWr6lxgzcefMd3usteka8Am6FxMXPy8cjupM2cNlIAxNzBcdJSpAkic7aD5DgTpTwrMspWQ/640?wx_fmt=jpeg&amp;from=appmsg" style="padding: 0.25rem;  background-color: #fff; border: 1px solid #dee2e6;   border-radius: 0.375rem; box-shadow: 0 0.125rem 0.25rem rgba(#000, 0.075); max-width: 50%; height: auto;" />
+<img src="https://picx.zhimg.com/v2-caa7b57695f78887ac0f703725145b15_r.jpg" style="padding: 0.25rem;  background-color: #fff; border: 1px solid #dee2e6;   border-radius: 0.375rem; box-shadow: 0 0.125rem 0.25rem rgba(#000, 0.075); max-width: 50%; height: auto;" />
 
 如果使用 Bootstrap，我们只需要在 HTML 文件中为头图的图片元素 (`<img>`) 添加一个叫 `img-thumbnail` 的类名即可。这个类名的意思是缩略图 (thumbnail image)。
 
@@ -64,23 +61,23 @@ Bootstrap 提供的样式非常丰富，每个样式都配有示例代码，基�
 
 除此之外，网上还有很多基于 Bootstrap 开发的主题模板，比如 Bootswatch、Start Bootstrap。使用主题模板可以进一步降低设置 CSS 样式的工作量，而且是大幅降低。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/h11VMG8jwafSZfbAqBjZ2mvowmcIXaT8m7rePSR0dbWU70CwnXWwJtwOh34jAjzJ6IEwpfaRQNCE1r1lvjzs1w/640?wx_fmt=png&amp;from=appmsg){:standalone}
+![](https://picx.zhimg.com/v2-1a020ff86df5b64cf2b7645c25f89db3_1440w.jpg){:standalone}
 
 对了，Bootstrap 是 GitHub 上的开源项目，出自前 Twitter 工程师 Mark Otto 和 Jacob Thornton 之手，一直是前端开发中非常流行的工具包。
 
 ## 什么是 DITA Bootstrap?
 
-DITA Bootstrap 是专为 DITA-OT 开发的一个插件。DITA-OT 的全称是 DITA Open Toolkit，是一款应用非常广泛的 DITA 发布工具。
+[DITA Bootstrap](https://infotexture.github.io/dita-bootstrap/) 是专为 DITA-OT 开发的一个插件。[DITA-OT](https://www.dita-ot.org/) 的全称是 DITA Open Toolkit，是一款应用非常广泛的 DITA 发布工具。
 
 DITA-OT 是许多 DITA 编辑器和内容管理系统默认的发布工具。本文开头说的“自带的模板太丑”，其实说的就是 DITA-OT 自带的模板太丑。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/h11VMG8jwafSZfbAqBjZ2mvowmcIXaT8tPzTAfHUzCMpx00lcd8bxsCERsE0wfGkem7FGPfNm9jUBcria0wiaY8g/640?wx_fmt=png&amp;from=appmsg){:standalone}
+![](https://pic3.zhimg.com/v2-9831e379650ceaa0866cb58056d46e5c_1440w.jpg){:standalone}
 
 有了 DITA Bootstrap 插件，你就可以直接把 Bootstrap 里写好的样式用在 DITA 元素上，然后一键发布就行！
 
 我们再来看个小例子吧！还是像前面一样，给图片添加一个圆角边框。像这样：
 
-<img src="https://mmbiz.qpic.cn/mmbiz_jpg/h11VMG8jwacCs1micXWr6lxgzcefMd3usteka8Am6FxMXPy8cjupM2cNlIAxNzBcdJSpAkic7aD5DgTpTwrMspWQ/640?wx_fmt=jpeg&amp;from=appmsg" style="padding: 0.25rem;  background-color: #fff; border: 1px solid #dee2e6;   border-radius: 0.375rem; box-shadow: 0 0.125rem 0.25rem rgba(#000, 0.075); max-width: 50%; height: auto;" />
+<img src="https://picx.zhimg.com/v2-caa7b57695f78887ac0f703725145b15_r.jpg" style="padding: 0.25rem;  background-color: #fff; border: 1px solid #dee2e6;   border-radius: 0.375rem; box-shadow: 0 0.125rem 0.25rem rgba(#000, 0.075); max-width: 50%; height: auto;" />
 
 如果用上 DITA Bootstrap 插件，我们只需要在 DITA 文件中将图片元素 (`<image>`) 的 `@outputclass` 属性设置为 `img-thumbnail` 即可。
 
@@ -123,7 +120,7 @@ DITA-OT 中包含 Java 代码。要使用 DITA-OT，必须得安装 Java。
 
 如果你不知道你的 DITA-OT 是哪个版本的，推荐安装最新的 JDK 稳定版 (Long-Term Support, LTS)。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/h11VMG8jwaf31nH68b81UKo9dokkKQibC3VZnp47r2WgF0XZ0UibTmqsSG8hHhbEboEnxHwib35ZXdmuZCS6ga2XQ/640?wx_fmt=png&amp;from=appmsg){:standalone}
+![](https://pic2.zhimg.com/v2-c62e3bc1cc6b5478c27ab2f210c63af9_1440w.jpg){:standalone}
 
 第三步，设置环境变量。
 
@@ -180,7 +177,7 @@ dita --install https://github.com/infotexture/dita-bootstrap/archive/master.zip
 
 DITA-OT 插件会安装在子文件夹 plugin 中。如果 CSS 扩展插件和 DITA Bootstrap 插件安装成功，你就可以在 plugin 文件夹中找到以这两个插件的 ID 命名的子文件夹。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/h11VMG8jwadusnwwbtaqz5tiamLVIWkwBhNoh0ZnUmbTdxEVhNrHZX8r2GyQMibgfvB6WOPYurtltmxZLLD4NLMg/640?wx_fmt=png&amp;from=appmsg){:standalone}
+![](https://picx.zhimg.com/v2-3b7372e155e56ffd1123a73b8fa42c83_1440w.jpg){:standalone}
 
 第五步，测试 DITA Bootstrap 插件。
 
@@ -196,7 +193,7 @@ dita --input=文件路径.ditamap --format=html5-bootstrap
 
 在 Oxygen XML 编辑器中，你也可以使用 DITA Bootstrap 发布在线文档。安装好 DITA Bootstrap 以后，按照以下步骤创建一个转换场景即可。
 
-![](https://mmbiz.qpic.cn/mmbiz_png/h11VMG8jwaeYSlLOj0aiaqfFCfTA7goFYBG7l5LqPvv3YAYe9hsbXicOtmicTic1lfaMoqga3sTokZewBf14OHtdXw/640?wx_fmt=png&amp;from=appmsg){:standalone}
+![](https://pic3.zhimg.com/v2-89492504c9d668ac25a42356da6a358c_1440w.jpg){:standalone}
 
 1. 打开 Oxygen XML 编辑器。
 2. 在编辑器中，打开一个DITA Map 文件。
@@ -207,7 +204,7 @@ dita --input=文件路径.ditamap --format=html5-bootstrap
 7. 在新场景对话框 (New Scenario) 中，将新场景的名称 (Name) 设置为 "DITA Bootstrap"，将存储方式 (Storage) 设置为全局选项 (Global Options)，并确认。这时，配置转换场景对话框中会出现一个名为“全局 (Global)”的类别。我们刚刚新建的转换场景 DITA Bootstrap 就归类在这个“全局”类别里。
 8. 点击应用关联场景 (Apply Associated) 后，DITA Map 文件会按照默认的主题样式转换为 HTML5 文件。
 
-这只是一个最简单的转换场景。如果使用 DITA Bootstrap 提供的众多参数，还可以根据需要进行丰富的个性化设置。想要了解更多，去翻一翻官方文档吧！
+这只是一个最简单的转换场景。如果使用 DITA Bootstrap 提供的众多参数，还可以根据需要进行丰富的个性化设置。想要了解更多，去翻一翻[官方文档](https://infotexture.github.io/dita-bootstrap/)吧！
 
 <!-- 
 <section style="margin-left: 10px; margin-right: 10px;">

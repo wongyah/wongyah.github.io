@@ -125,15 +125,21 @@ defaults:
         toc: true
         toc_sticky: true
   - scope:
+      path: "_pages"
+      type: pages
+    values:
+      sidebar:
+        - title: "关注我"
+          image: https://resources.docsimpo.work/assets/images/socia-media/qrcode_wechat_258.jpg
+          image_alt: "微信搜一搜关注我的公众号：技术传播百态说 (ID: tc_blabber)"
+          text: "微信扫一扫关注我的公众号，第一时间阅读技术传播领域的技术文章。"
+        - title: "文章类别"
+        - nav: "post_tags"
+  - scope:
       path: ""
     values:
       layout: single
       author_profile: true
-      # sidebar:
-      #   - title: "Wechat Subscription Account"
-      #     image: /assets/images/socia-media/qrcode_wechat_258.jpg
-      #     image_alt: "Wechat subscription account ID: docSimpo"
-      #     text: "Scan the QR code to follow my Wechat subscription account (ID: docSimpo)."
 
 
 # Plugins
