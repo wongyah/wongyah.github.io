@@ -1,0 +1,18 @@
+// Text truncate
+// Requires inline-block or block for proper styling
+
+@mixin text-truncate() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin multiline-text-truncate($line-clamp: 2, $text-overflow: ellipsis) {
+  overflow: hidden;
+  text-overflow: $text-overflow;
+  text-overflow: -o-#{$text-overflow}-lastline;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $line-clamp;
+  line-clamp: $line-clamp;
+}
