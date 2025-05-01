@@ -60,8 +60,13 @@
 }
 
 .page__hero {
+
   &--overlay {
     margin-bottom: 0;
+    
+    .page__lead {
+      max-width: $large;
+    }
   }
 }
 

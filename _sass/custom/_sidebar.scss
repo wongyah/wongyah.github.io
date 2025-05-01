@@ -17,6 +17,16 @@
    padding: 1.5em $padding-page;
    border-radius: $border-radius-page;
    box-shadow: $box-shadow-page;
+
+   @include breakpoint($large) {
+     box-shadow: none; 
+   }
+
+   &:hover {
+     box-shadow: $box-shadow-page;
+     -webkit-transition: box-shadow 0.2s ease-in-out;
+     transition: box-shadow 0.2s ease-in-out;
+   }
  }
 
 }

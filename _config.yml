@@ -6,6 +6,7 @@ minimal_mistakes_skin    : "contrast"
 
 # Site settings
 locale                   : "zh-CN"
+date_format              : "%Y-%m-%d"
 title                    : "技术传播百态说"
 title_separator          : "|"
 # subtitle                 : site tagline that appears below site title in masthead
@@ -85,7 +86,7 @@ footer:
       url: "https://mp.weixin.qq.com/s?__biz=MzA5NzU4ODAwOQ==&mid=2247487464&idx=1&sn=c57c1b993dcb2c166d88bc2c0d414a10&chksm=909fc9aea7e840b874ebe3e37d0e2a58de7c4c4c5e18f1355b1a4be6378b5752c571c4aeddd4&token=587590048&lang=zh_CN#rd"
     - label: "知乎"
       icon: "fab fa-fw fa-zhihu"
-      url: "https://www.zhihu.com/column/c_1548252009672929280"
+      url: "https://www.zhihu.com/people/docSimpo/columns"
     - label: "邮箱"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:wongyah@126.com?subject=Awesome%20technical%20writing%20learning"

@@ -69,19 +69,38 @@
    .nav__title {
       background: $primary-color;
       font-size: $type-size-6;
+      text-indent: 0;
+
    }
+
+   @include breakpoint($large) {
+      opacity: 0.75;
+      box-shadow: none;
+   }
+
+   &:hover {
+      box-shadow: $box-shadow-page;
+      -webkit-transition: box-shadow 0.2s ease-in-out;
+      transition: box-shadow 0.2s ease-in-out;
+      opacity: 1;
+      -webkit-transition: opacity 0.2s ease-in-out;
+      transition: opacity 0.2s ease-in-out;
+    }
+ 
 }
 
 .toc__menu {
-   @include breakpoint($large) {
-      font-size: $type-size-6;
-   }
+  @include breakpoint($large) {
+     font-size: $type-size-6;
+  }
 
-   a {
-      &:hover {
-         color: $link-color;
-      }
-   }
+  a {
+    font-weight: normal;
+
+    &:hover {
+       color: $link-color;
+    }
+  }
 }
 
 

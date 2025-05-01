@@ -13,7 +13,7 @@ tags: 软件工具 DITA
 
 我很想知道这些手册里都写了什么，怎么写的。但是，除了个别产品的官方文档以外，这些手册几乎都没有发布成在线文档，只以 XML 文件的形式躺在存储库里。
 
-我实在不想自己去发布一遍，更不想去读密密麻麻的 XML 源代码。所以<sub>哎</sub>能理解我了吧?
+我实在不想自己去发布一遍，更不想去读密密麻麻的 XML 源代码。能理解我了吧?
 
 年前，我为了准备一个 DITA 培训课程，打算收集和制作一些中文的样本手册作为练习材料。总不能让大家只看源代码不见“成品”吧，还是得做成适合阅读的形式才好。
 
@@ -33,7 +33,7 @@ tags: 软件工具 DITA
 
 假设我们想给博客文章的头图都添加上一个圆角边框，像这样：
 
-<img src="https://picx.zhimg.com/v2-caa7b57695f78887ac0f703725145b15_r.jpg" style="padding: 0.25rem;  background-color: #fff; border: 1px solid #dee2e6;   border-radius: 0.375rem; box-shadow: 0 0.125rem 0.25rem rgba(#000, 0.075); max-width: 50%; height: auto;" />
+<img src="https://picx.zhimg.com/v2-caa7b57695f78887ac0f703725145b15_r.jpg" style="max-width: 50%; height: auto;" />
 
 如果使用 Bootstrap，我们只需要在 HTML 文件中为头图的图片元素 (`<img>`) 添加一个叫 `img-thumbnail` 的类名即可。这个类名的意思是缩略图 (thumbnail image)。
 
@@ -77,7 +77,7 @@ DITA-OT 是许多 DITA 编辑器和内容管理系统默认的发布工具。本
 
 我们再来看个小例子吧！还是像前面一样，给图片添加一个圆角边框。像这样：
 
-<img src="https://picx.zhimg.com/v2-caa7b57695f78887ac0f703725145b15_r.jpg" style="padding: 0.25rem;  background-color: #fff; border: 1px solid #dee2e6;   border-radius: 0.375rem; box-shadow: 0 0.125rem 0.25rem rgba(#000, 0.075); max-width: 50%; height: auto;" />
+<img src="https://picx.zhimg.com/v2-caa7b57695f78887ac0f703725145b15_r.jpg" style="max-width: 50%; height: auto;" />
 
 如果用上 DITA Bootstrap 插件，我们只需要在 DITA 文件中将图片元素 (`<image>`) 的 `@outputclass` 属性设置为 `img-thumbnail` 即可。
 
@@ -101,18 +101,18 @@ dita --input=文件路径.ditamap --format=html5-bootstrap --bootstrap.theme=<�
 
 安装 DITA Bootstrap 时要用到命令行和环境变量，还需要做一些准备工作。听起来很高深的样子吧? 但你别担心，没那么复杂。只要跟着我做，保证你手到擒来。
 
-第一步，安装 DITA-OT。
+**第一步，安装 DITA-OT。**
 
 DITA Bootstrap 是 DITA-OT 的一个插件。要使用 DITA Bootstrap，必须得先装上 DITA-OT。
 
 如果你此前已经安装了 Oxygen XML、Adobe FrameMaker 等软件，那么你的电脑上其实已经有 DITA-OT 了。你只需要找到 DITA-OT 安装文件夹的位置即可。
 
-> Oxygen XML 中的 DITA-OT 安装位置是：\\
+> Oxygen XML 中的 DITA-OT 安装位置是：
 `[OXYGEN安装文件夹]/frameworks/dita/DITA-OT`
 
 如果你没有安装过上述软件或者想用最新版的 DITA-OT，去官网下载安装包后解压缩即可。
 
-第二步，安装 Java。
+**第二步，安装 Java。**
 
 DITA-OT 中包含 Java 代码。要使用 DITA-OT，必须得安装 Java。
 
@@ -122,7 +122,7 @@ DITA-OT 中包含 Java 代码。要使用 DITA-OT，必须得安装 Java。
 
 ![](https://pic2.zhimg.com/v2-c62e3bc1cc6b5478c27ab2f210c63af9_1440w.jpg){:standalone}
 
-第三步，设置环境变量。
+**第三步，设置环境变量。**
 
 一般情况下，我们需要为 Java 配置两个环境变量 (JAVA_HOME 和 Path)，为 DITA-OT 配置一个环境变量 (Path)。
 
@@ -150,7 +150,7 @@ DITA-OT version 4.1.1
 
 如果安装成功，输入 `dita --version` 命令后，命令提示符窗口中会显示出 DITA-OT 的版本号。
 
-第四步，安装 CSS 扩展插件和 DITA Bootstrap 插件。
+**第四步，安装 CSS 扩展插件和 DITA Bootstrap 插件。**
 
 DITA Bootstrap 插件是基于另外一个叫 CSS 扩展的插件 (fox.jason.extend.css) 编写的，所以 CSS 扩展插件得和 DITA Bootstrap 插件一起安装。
 
@@ -179,7 +179,7 @@ DITA-OT 插件会安装在子文件夹 plugin 中。如果 CSS 扩展插件和 D
 
 ![](https://picx.zhimg.com/v2-3b7372e155e56ffd1123a73b8fa42c83_1440w.jpg){:standalone}
 
-第五步，测试 DITA Bootstrap 插件。
+**第五步，测试 DITA Bootstrap 插件。**
 
 找一个 DITA Map 文件，使用 DITA Bootstrap 将其发布为在线文档（HTML）：
 
@@ -203,6 +203,7 @@ dita --input=文件路径.ditamap --format=html5-bootstrap
 6. 在 DITA 转换类型对话框 (DITA Transformation Type) 中，选择 HTML5 with extensible Bootstrap style 并确认。
 7. 在新场景对话框 (New Scenario) 中，将新场景的名称 (Name) 设置为 "DITA Bootstrap"，将存储方式 (Storage) 设置为全局选项 (Global Options)，并确认。这时，配置转换场景对话框中会出现一个名为“全局 (Global)”的类别。我们刚刚新建的转换场景 DITA Bootstrap 就归类在这个“全局”类别里。
 8. 点击应用关联场景 (Apply Associated) 后，DITA Map 文件会按照默认的主题样式转换为 HTML5 文件。
+{:.small}
 
 这只是一个最简单的转换场景。如果使用 DITA Bootstrap 提供的众多参数，还可以根据需要进行丰富的个性化设置。想要了解更多，去翻一翻[官方文档](https://infotexture.github.io/dita-bootstrap/)吧！
 

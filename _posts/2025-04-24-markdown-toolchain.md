@@ -25,7 +25,7 @@ tags: 软件工具 Markdown
 
 上手 Markdown 的第一步，一般是给自己选个好用的编辑器。支持 Markdown 的编辑器很多，大体上分为以下几类：
 
-![](https://mmbiz.qpic.cn/mmbiz_png/h11VMG8jwafUPz7NvOYYdGuwyZsd0DTez2yTPI2QCm4l8EPp2QajaK5PupbAcIcXsFKUTzkaAclcuGqSBBEUNQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1){:standalone}
+![](https://pic3.zhimg.com/v2-d5dbdaef6db9158013fcf0c247b5899a_1440w.jpg){:standalone}
 
 **支持 Markdown 的笔记软件**，比如有道云笔记、腾迅文档、Obsidian 等。
 
