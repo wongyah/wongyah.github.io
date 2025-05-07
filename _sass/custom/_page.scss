@@ -29,13 +29,13 @@
     padding-left: 0;
     padding-right: 0;
 
-    &:first-child, aside + * {
-      margin-top: 1.5rem;
-    }
-
     & > *:not(.sidebar__right) {
       margin-left: 2rem;
       margin-right: 2rem;
+    }
+
+    & > :not(aside):first-of-type {
+      margin-top: 1.5rem;
     }
   }
 

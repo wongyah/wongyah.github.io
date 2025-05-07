@@ -5,6 +5,7 @@ header:
   overlay_image: https://pic1.zhimg.com/70/v2-53fc3094ab61d67cf87c98ad9f6746aa_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_filter: 0.5
 tags: 行业新闻 DITA
+toc: false
 ---
 
 LearningDITA 是美国内容策略咨询公司 Scriptorium 开发的一门 DITA 入门课程。
