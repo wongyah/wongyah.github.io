@@ -5,16 +5,17 @@ main:
     url: "https://resources.docsimpo.work/"
 post_tags:
   - title: "技术写作"
-    url: /technical-writing/
+    url: /blog/technical-writing/
   - title: "内容管理"
+    url: /blog/content-management/
     children:
       - title: "Markdown"
-        url: /software/markdown/
+        url: /blog/content-management/markdown/
       - title: "DITA"
-        url: /software/dita/
+        url: /blog/content-management/dita/
       - title: "S1000D"
-        url: /software/s1000d/
+        url: /blog/content-management/s1000d/
   - title: "人工智能"
-    url: /ai/
+    url: /blog/ai/
   - title: "行业新闻"
-    url: /news/
+    url: /blog/news/

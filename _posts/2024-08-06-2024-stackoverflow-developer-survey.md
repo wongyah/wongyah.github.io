@@ -1,5 +1,6 @@
 ---
-title: Stack Overflow 年度报告：80% 以上的人使用技术文档学编程
+title: Stack Overflow 年度报告：80%以上的人使用技术文档学编程
+excerpt: 著名的开发者问答社区 Stack Overflow 发布了最新的开发者年度调查报告。来自全球 185 个国家的 6.5 万名开发者参与了调查。
 header:
   teaser: https://pica.zhimg.com/70/v2-97c95a9e878c313a31675db48a335e94_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_image: https://pica.zhimg.com/70/v2-97c95a9e878c313a31675db48a335e94_1440w.avis?source=172ae18b&biz_tag=Post

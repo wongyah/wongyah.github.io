@@ -1,6 +1,6 @@
 ---
 title: 行业新闻
-permalink: /news/
+permalink: /blog/news/
 layout: tag
 taxonomy: 行业新闻
 entries_layout: grid

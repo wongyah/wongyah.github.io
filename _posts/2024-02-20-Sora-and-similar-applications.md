@@ -1,5 +1,6 @@
 ---
 title: Sora 并非首个视频生成模型，为何还能一出场就惊艳了所有人?
+excerpt: Sora 生成的高清视频栩栩如生，众多网友惊呼“真假难辨，以后连视频证据都不可信了吧”！
 header:
   teaser: https://picx.zhimg.com/70/v2-648b9a06cf14d4f68bc7652b1f950bde_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_image: https://picx.zhimg.com/70/v2-648b9a06cf14d4f68bc7652b1f950bde_1440w.avis?source=172ae18b&biz_tag=Post

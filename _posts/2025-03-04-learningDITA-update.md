@@ -1,10 +1,11 @@
 ---
 title: LearningDITA 全新改版，主要课程即将收费
+excerpt: 新版 LearningDITA 目前只上线了四节课程，到 Scriptorium 在线商店限时免费领取。
 header:
   teaser: https://pic1.zhimg.com/70/v2-53fc3094ab61d67cf87c98ad9f6746aa_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_image: https://pic1.zhimg.com/70/v2-53fc3094ab61d67cf87c98ad9f6746aa_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_filter: 0.5
-tags: 行业新闻 DITA
+tags: 行业新闻
 toc: false
 ---
 

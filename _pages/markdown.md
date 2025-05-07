@@ -1,6 +1,6 @@
 ---
 title: Markdown
-permalink: /software/markdown/
+permalink: /blog/content-management/markdown/
 layout: tag
 taxonomy: Markdown
 entries_layout: grid

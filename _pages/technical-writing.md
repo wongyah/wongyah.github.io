@@ -1,6 +1,6 @@
 ---
 title: 技术写作
-permalink: /technical-writing/
+permalink: /blog/technical-writing/
 layout: tag
 taxonomy: 技术写作
 entries_layout: grid

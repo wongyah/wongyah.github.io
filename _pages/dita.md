@@ -1,6 +1,6 @@
 ---
 title: DITA
-permalink: /software/dita/
+permalink: /blog/content-management/dita/
 layout: tag
 taxonomy: DITA
 entries_layout: grid

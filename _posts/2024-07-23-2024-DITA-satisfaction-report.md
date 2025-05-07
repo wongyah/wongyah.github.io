@@ -1,10 +1,11 @@
 ---
 title: 2017-2024年DITA满意度调查报告
+excerpt: 十年来，DITA 用户稳定增长。熟练使用 DITA 的人越来越多，但结构化内容团队的建设和管理依然不容乐观。
 header:
   teaser: https://pica.zhimg.com/70/v2-97c95a9e878c313a31675db48a335e94_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_image: https://pica.zhimg.com/70/v2-97c95a9e878c313a31675db48a335e94_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_filter: 0.5
-tags: 行业新闻 DITA
+tags: 内容管理 DITA
 ---
 
 DITA (Darwin Information Typing Architecture) 原是 IBM 的技术文档专家开发的内部标准，2004 年 IBM 将其捐赠给了结构化信息标准促进组织 (OASIS)。
@@ -18,8 +19,6 @@ DITA (Darwin Information Typing Architecture) 原是 IBM 的技术文档专家�
 带着这些问题，结构化内容服务公司 Precision Content 和 技术传播领域的新媒体公司 Content Wrangler 分别在 2017 年、2020 年和 2024 年进行了三次 DITA 满意度调查。
 
 让我们一起来看看这些报告里的新发现吧！
-
-> [2024 年 DITA 满意度调查](https://www.surveymonkey.com/r/DPHN5WM)仍在进行中，赶紧去参与一下吧。
 
 ## 用户数量
 

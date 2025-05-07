@@ -1,5 +1,6 @@
 ---
 title: 使用国产AI大模型“猜写”BBC科技文章《走进说明书的世界》
+excerpt: 大模型有自动优化语义的倾向，总喜欢改改改。一旦改得不好了，最好新建一个对话。
 header:
   teaser: https://pic1.zhimg.com/70/v2-cf3b3c780364fca8b80b528081507df8_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_image: https://pic1.zhimg.com/70/v2-cf3b3c780364fca8b80b528081507df8_1440w.avis?source=172ae18b&biz_tag=Post

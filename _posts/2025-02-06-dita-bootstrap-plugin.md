@@ -1,10 +1,11 @@
 ---
-title: 发现了一个神仙插件：在DITA中无缝衔接Bootstrap，还能使用那么多精美的主题模板
+title: DITA无缝衔接Bootstrap，还能使用那么多精美的主题模板
+excerpt: DITA Bootstrap 是专为 DITA-OT 开发的一个插件。有了 DITA Bootstrap，你就可以直接把 Bootstrap 里写好的样式用在 DITA 元素上，一键发布！
 header:
   teaser: https://picx.zhimg.com/70/v2-1bc6fc6d0949fa8d30b57ff4706947d8_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_image: https://picx.zhimg.com/70/v2-1bc6fc6d0949fa8d30b57ff4706947d8_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_filter: 0.5
-tags: 软件工具 DITA
+tags: 内容管理 DITA
 ---
 
 自带的模板太丑，一直是 DITA 广为诟病的原因之一。

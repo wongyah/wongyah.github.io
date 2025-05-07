@@ -103,16 +103,19 @@
   }
 }
 
+.nav__items > li{
 
-.nav__sub-title {
-   font-size: 0.8em;
-   font-weight: normal;
-   border-bottom: none;
+   .nav__sub-title {
+      font-size: 0.8em;
+      font-weight: normal;
+      border-bottom: none;
+   }
    
-   & + ul li {
+   ul li {
       margin: 0.5em 0 0.5em 1em;
       font-size: 0.8em;
    }
+
 }
 
 // 设置侧栏目录的样式：激活时高亮显示

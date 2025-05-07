@@ -1,6 +1,6 @@
 ---
 title: 人工智能
-permalink: /ai/
+permalink: /blog/ai/
 layout: tag
 taxonomy: 人工智能
 entries_layout: grid

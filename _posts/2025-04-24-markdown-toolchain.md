@@ -1,10 +1,11 @@
 ---
 title: 别看Markdown一脸小清新，心里的弯弯绕可多着呢！
+excerpt: 最好的方法是，先了解常见的 Markdown 工具，再选套适合自己的。而不是稀里糊涂地选了工具之后，再来个削足适履。
 header:
   teaser: https://picx.zhimg.com/70/v2-c508b2b4dc7244e24da889713b1f0b24_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_image: https://picx.zhimg.com/70/v2-c508b2b4dc7244e24da889713b1f0b24_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_filter: 0.5
-tags: 软件工具 Markdown
+tags: 内容管理 Markdown
 ---
 
 以前，我发布过一篇关于DITA的新手文章《[当文档结构化大势已成，落单的我们该何去何从?](https://mp.weixin.qq.com/s/xmtUqpHSUSEDDik_jLNuSw)》。

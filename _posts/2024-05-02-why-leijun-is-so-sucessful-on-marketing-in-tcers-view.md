@@ -1,5 +1,6 @@
 ---
 title: 从技术传播角度看，雷军营销“神”在哪?
+excerpt: 是雷总营销能力强，还是友商们太拉跨? 口说无凭，跑个分?
 header:
   teaser: https://picx.zhimg.com/70/v2-24e0c9d395747dc84edefbdf58b585fa_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_image: https://picx.zhimg.com/70/v2-24e0c9d395747dc84edefbdf58b585fa_1440w.avis?source=172ae18b&biz_tag=Post
