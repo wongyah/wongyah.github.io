@@ -34,7 +34,7 @@
       margin-right: 2rem;
     }
 
-    & > :not(aside):first-of-type {
+    & > :not(aside):first-child, > :not(aside):nth-child(2) {
       margin-top: 1.5rem;
     }
   }

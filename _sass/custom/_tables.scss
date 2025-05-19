@@ -2,6 +2,20 @@
    TABLES
    ========================================================================== */
 
+.table-wrapper {
+  margin-bottom: 2em;
+}
+
+.page__content p.table-caption {
+  margin-bottom: 0.5em;
+  font-weight: $font-weight-strong;
+  color: $gray;
+
+  &::before {
+    content: '表格：';
+  }
+}
+
 table {
   display: table;
 }

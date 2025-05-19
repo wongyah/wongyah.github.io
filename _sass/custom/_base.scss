@@ -74,3 +74,13 @@ figure {
     box-shadow: 0 0 5px rgb(150, 150, 150);
   }
 }
+
+#refs {
+  font-size: $h-size-6;
+  color: $gray;
+  padding-bottom: 0;
+}
+
+#refs_list {
+  color: $gray;
+}
