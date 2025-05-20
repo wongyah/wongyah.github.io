@@ -2,8 +2,8 @@
 title: 职场边缘人生存指南：歪出一段齐头并进的斜杠人生?
 excerpt: "行业现状，不可能在朝夕之间发生明显改观。当别人不给自己机会时候，自己一定要给自己一个机会。"
 header:
-  teaser: https://pica.zhimg.com/70/v2-648b9a06cf14d4f68bc7652b1f950bde_1440w.avis?source=172ae18b&biz_tag=Post
-  overlay_image: https://pica.zhimg.com/70/v2-648b9a06cf14d4f68bc7652b1f950bde_1440w.avis?source=172ae18b&biz_tag=Post
+  teaser: https://picx.zhimg.com/70/v2-4d2385ec167fd12205038f8cf8a6db66_1440w.avis?source=172ae18b&biz_tag=Post
+  overlay_image: https://picx.zhimg.com/70/v2-4d2385ec167fd12205038f8cf8a6db66_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_filter: 0.5
 tags: 行业新闻
 ---

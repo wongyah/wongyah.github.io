@@ -2,8 +2,8 @@
 title: 当文档结构化大势已成，落单的我们该何去何从?
 excerpt: "新的方法和工具总是在实际使用过程中熟能生巧，宝贵的经验总是在不断的尝试和探索中精炼而成。"
 header:
-  teaser: https://pica.zhimg.com/70/v2-648b9a06cf14d4f68bc7652b1f950bde_1440w.avis?source=172ae18b&biz_tag=Post
-  overlay_image: https://pica.zhimg.com/70/v2-648b9a06cf14d4f68bc7652b1f950bde_1440w.avis?source=172ae18b&biz_tag=Post
+  teaser: https://pic1.zhimg.com/70/v2-aa0a6d7ac431007100d98e039ad5e4b0_1440w.avis?source=172ae18b&biz_tag=Post
+  overlay_image: https://pic1.zhimg.com/70/v2-aa0a6d7ac431007100d98e039ad5e4b0_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_filter: 0.5
 tags: 内容管理 DITA
 ---

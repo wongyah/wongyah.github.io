@@ -2,8 +2,8 @@
 title: 起底宜家声名斐然的（家具）组装手册：技术插图中的投影理论
 excerpt: "多图预警! 虽然宜家风格的产品手册备受用户青睐,但高昂的成本还是劝退了很多企业。但今时不同往日……"
 header:
-  teaser: https://pica.zhimg.com/70/v2-648b9a06cf14d4f68bc7652b1f950bde_1440w.avis?source=172ae18b&biz_tag=Post
-  overlay_image: https://pica.zhimg.com/70/v2-648b9a06cf14d4f68bc7652b1f950bde_1440w.avis?source=172ae18b&biz_tag=Post
+  teaser: https://picx.zhimg.com/70/v2-a19dce1a436cc06938ef3f728b17e440_1440w.avis?source=172ae18b&biz_tag=Post
+  overlay_image: https://picx.zhimg.com/70/v2-a19dce1a436cc06938ef3f728b17e440_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_filter: 0.5
 tags: 技术写作
 ---
