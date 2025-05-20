@@ -10,11 +10,11 @@ tags: 人工智能
 
 上周四，OpenAI 发布了首个视频生成模型 Sora。栩栩如生的高清视频让众多网友惊呼“真假难辨，以后连视频证据都不可信了吧”！
 
-<div>
-  <video width="100%" height="auto" controls="controls" src="">
-  <source src="https://vdn6.vzuu.com/HD/23450c92-cf93-11ee-b01f-d246a47ad65d-v8_f2_t1_2WZXfTu4.mp4?pkey=AAUwoGA2TO4RAbZN9c9rnhTb9KyCnNqRp6hl892ISf5o9igmGCizoY2donSrAe7HJL7duq_yRwTXAeg9g71O4Cmf&c=avc.8.0&f=mp4&pu=e59e796c&bu=1513c7c2&expiration=1708593331&v=ks6&pp=ChMxNDAxNjIzODY1NzM5NTc5MzkyGGMiC2ZlZWRfY2hvaWNlMhMxMzY5MDA1NjA4NTk5OTA0MjU3PXu830Q%3D&pf=Web&pt=zhihu" type="video/mp4">
-  </video>
-</div>
+{% include video.html
+  autoplay=false
+  loop=false
+  src="https://vdn6.vzuu.com/HD/23450c92-cf93-11ee-b01f-d246a47ad65d-v8_f2_t1_2WZXfTu4.mp4?pkey=AAXQauNxatC8lHQ4dJUuG0eiRq9U1KXw7YPGXHGrc3YgiL2I0nfVF9r-5EK2j87WDttC3uE9FS9vTTXT2LQZf1Se&bu=1513c7c2&c=avc.8.0&expiration=1747740008&f=mp4&pu=e59e796c&v=ks6&pp=ChMxNDAxNjIzODY1NzM5NTc5MzkyGGMiC2ZlZWRfY2hvaWNlMhMxMzY5MDA1NjA4NTk5OTA0MjU3PXu830Q%3D&pf=Web&pt=zhihu"
+%}
 
 作为一个正对视频号跃跃欲试的技术传播小号主，自然知道视频制作的门槛。之前，哪怕只是想做个好一点的动图，也需要花好长时间。每次动手前，我都得进行一下心理建设！
 

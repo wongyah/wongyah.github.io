@@ -15,7 +15,7 @@ tags: 技术写作
 
 有新入坑的网友在组装家具时，正在为两个小零件发愁：它们长得太像了，真分不清谁是谁！一个不小心，小零件掉在了手册上。他方才发现，原来直接把东西放上去比一比就知道了！
 
-![宜家组装手册中的小零件](https://pic2.zhimg.com/v2-cbc3896ced7aaf40849420cbe33f51a3_1440w.jpg "宜家组装手册中的小零件"){:standalone}
+![宜家组装手册中的小零件](https://pic2.zhimg.com/v2-cbc3896ced7aaf40849420cbe33f51a3_1440w.jpg "宜家组装手册中的小零件"){:standalone style="max-width: 600px;"}
 
 别具一格的手册风格，不仅为宜家圈粉无数，还衍生出了不少好看又好玩的“周边产品”。比如，使用小游戏帮你排解寂寞无聊的《[居家指南]》，简易料理系列食谱《[烹调这张纸]》……
 
@@ -41,7 +41,7 @@ tags: 技术写作
 
 在画法几何或建筑制图中，透视图被叫做**中心投影**。假设一个点光源照射在物体上，将物体的轮廓线和边角线全部投影在一个虚拟的投影面上，所得的图形就是中心投影。
 
-![中心投影](https://pica.zhimg.com/v2-d0069ff737b1927501023186c2cfbb6c_1440w.jpg){:standalone}
+![中心投影](https://pica.zhimg.com/v2-d0069ff737b1927501023186c2cfbb6c_1440w.jpg){:standalone style="max-width: 600px;"}
 
 中心投影（透视图）的最大优点是十分逼真，就像我们的眼睛处于点光源的位置时亲眼看到，或者将手机或相机放在点光源的位置时拍出的照片一样。
 
@@ -53,7 +53,7 @@ tags: 技术写作
 
 如果将中心投影中的点光源放在一个无限远的地方，照射到物体上的光线就变成了平行光（比如太阳光），这时在投影面上获得的图形叫做**平行投影**。
 
-![平行投影](https://pic3.zhimg.com/v2-864531b9a4ff56d30a909c7edefee9f4_1440w.jpg){:standalone}
+![平行投影](https://pic3.zhimg.com/v2-864531b9a4ff56d30a909c7edefee9f4_1440w.jpg){:standalone style="max-width: 600px;"}
 
 与中心投影不同的是，平行投影可以很好地反映物体的实际形状和大小，没有“近大远小”现象。
 
@@ -63,7 +63,7 @@ tags: 技术写作
 
 正投影的这一特点，让它在各种工程制图中得到广泛应用。其中，最常见的当属产品图纸上的正视图、俯视图和侧视图（三面投影图）。
 
-![正投影：三面投影图](https://pic4.zhimg.com/v2-be7fb8928eb8ed6280a4ddb98092a9cf_1440w.jpg){:standalone}
+![正投影：三面投影图](https://pic4.zhimg.com/v2-be7fb8928eb8ed6280a4ddb98092a9cf_1440w.jpg){:standalone style="max-width: 600px;"}
 
 但它的不足之处也显而易见，没有立体感，不好读懂。对于形状复杂的物体（产品），需要一定的读图能力才看得懂，读图的过程也很烧脑。
 
@@ -73,7 +73,7 @@ tags: 技术写作
 
 假设将物体放在一个三维坐标系中，使用与任何一个坐标平面都不平行的平行光对物体进行投影，在投影面上获得的图形叫做**轴测投影**（也叫轴测图）。
 
-![轴测投影](https://pic2.zhimg.com/v2-2316f318071c569aaf03936f2c68e71d_1440w.jpg){:standalone}
+![轴测投影](https://pic2.zhimg.com/v2-2316f318071c569aaf03936f2c68e71d_1440w.jpg){:standalone style="max-width: 600px;"}
 
 轴测投影具有立体感，可以同时看到物体的正面、侧面和顶部，能很好的展示物体的空间特性。轴测投影属于平行投影，具备平行投影的所有优点（平行性、定比性和仿形性等）。
 
@@ -85,7 +85,7 @@ tags: 技术写作
 
 正轴测投影又分为正等轴测投影、正二等轴测投影和正三轴测投影。其中，正等轴测投影是技术插图中最流行的画法。
 
-![正等轴测投影](https://pic3.zhimg.com/v2-798c0e2626f96b9e9dc67c9464271d14_1440w.jpg){:standalone}
+![正等轴测投影](https://pic3.zhimg.com/v2-798c0e2626f96b9e9dc67c9464271d14_1440w.jpg){:standalone style="max-width: 600px;"}
 
 **正等轴测投影（简称正等测）**是指，当平行光的光线方向与三个坐标平面均呈 45° 夹角（即正方体的对角线方向）时在投影面上获得的正投影。
 
@@ -95,15 +95,19 @@ tags: 技术写作
 >
 > 但在绘制轴测投影时，一般只需要保证物体的尺寸在各个方向上维持正确的比例关系即可，不需要严格按照投影的实际尺寸绘制。所以，如果一个正方体的实际边长为 1，绘制正等测时一般也将它的边长画为 1 。也就是说，绘制出的正等测比实际的投影要大那么一圈儿。
 
-![旋转正等测](https://vdn6.vzuu.com/SD/ff76a288-dbf7-11ed-88ca-da6d0ce407e7-v1_f4_t2_BaHGBL4z.mp4?pkey=AAWDNo4VPani1Caj1WoT7yNpM4DPk-proghLKTAONRm4Xa3jhB7h8Cyndj3g4WGSq-SDk_wlIIafMioMMdH9K7r_&bu=078babd7&c=avc.1.1&expiration=1747630948&f=mp4&pu=078babd7&v=ks6 "旋转正等测"){: standalone}
+{% include video.html 
+  style="max-width: 500px;"
+  src="https://vdn3.vzuu.com/SD/ff76a288-dbf7-11ed-88ca-da6d0ce407e7-v1_f4_t2_BaHGBL4z.mp4?auth_key=1747734184-0-0-f33b64bb51b4044a2a6d50652c0af29a&bu=078babd7&c=avc.1.1&disable_local_cache=1&expiration=1747734184&f=mp4&pu=078babd7&v=tx"
+  caption="旋转正等测"
+%}
 
 **正二等轴测投影（简称正二测）**是指，物体的轴测投影只在两个坐标轴方向上的变形程度（轴向伸缩系数）相同，另一个坐标轴方向上的变形程度与其它两个不同。
 
-![正二测](https://pic4.zhimg.com/v2-c44309064297b73712898bbe52a6b0a3_1440w.jpg){:standalone}
+![正二测](https://pic4.zhimg.com/v2-c44309064297b73712898bbe52a6b0a3_1440w.jpg){:standalone style="max-width: 600px;"}
 
 **正三轴测投影（简称正三测）**是指，物体的轴测投影在三个坐标轴方向上的变形程度（轴向伸缩系数）各不相同。
 
-![正三测](https://pic2.zhimg.com/v2-030363a8b0e8353389939510b12e8831_1440w.jpg){:standalone}
+![正三测](https://pic2.zhimg.com/v2-030363a8b0e8353389939510b12e8831_1440w.jpg){:standalone style="max-width: 600px;"}
 
 正等测是技术插图中最常用的画法。如果需要重点展示某一个或两个平面时，也会用到正二测和正三测。
 
@@ -111,7 +115,7 @@ tags: 技术写作
 
 而手册里那些按实际大小绘制的小零件，实际上就是至少一个坐标轴按照 1:1 比例绘制的轴测投影（正等测、正二测或正三测）。
 
-![宜家组装手册中的轴测投影](https://pic4.zhimg.com/v2-1c2e177a40571dfb02e8998174d57a89_1440w.jpg "宜家组装手册中的轴测投影"){:standalone}
+![宜家组装手册中的轴测投影](https://pic4.zhimg.com/v2-1c2e177a40571dfb02e8998174d57a89_1440w.jpg "宜家组装手册中的轴测投影"){:standalone style="max-width: 600px;"}
 
 ## 绘图软件
 
@@ -128,7 +132,10 @@ tags: 技术写作
 
 最为神奇的是，有的软件还能从零开始手绘具有 3D 效果的正等测，仅仅通过拖拽、复制粘贴或旋转等简单操作就可以实现对现有零件图形的重复利用。
 
-![一个回转体正等测的绘制过程](https://vdn6.vzuu.com/SD/ffe47f24-dbf7-11ed-9213-4e69632d281b-v1_f4_t2_CGSkZOhT.mp4?pkey=AAXk7wLRXQSJWeo4B9TRBV2gQc9AGRDEyXO7l3ruy08qXoGfNmTj-msYhdUbvERMoTi6B3k1n0esLuxl7Shv5j7m&bu=078babd7&c=avc.1.1&expiration=1747631116&f=mp4&pu=078babd7&v=ks6 "一个回转体正等测的绘制过程"){:standalone}
+{% include video.html 
+  src="https://vdn6.vzuu.com/SD/ffe47f24-dbf7-11ed-9213-4e69632d281b-v1_f4_t2_CGSkZOhT.mp4?pkey=AAVQDc4V03-LmE88uZdnn1ZpJrVhTIC8TnlkMvIby1AS2dj19qqsCzudwSi3d1McMQ8tjy987xwapsQsMdclX0sN&bu=078babd7&c=avc.1.1&expiration=1747738719&f=mp4&pu=078babd7&v=ks6"
+  caption="一个回转体正等测的绘制过程"
+%}
 
 在实际工作中，没有 3D 模型或者 3D 模型不完整（缺少一些小零件）的情况非常常见。这种便捷的手绘功能，相当于解决了技术插图的“最后一公里”问题。
 

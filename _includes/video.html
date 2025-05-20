@@ -1,0 +1,21 @@
+<div class="video-wrapper">
+  <video
+    {% if include.controls != false %}controls{% endif %}
+    {% if include.autoplay != false %}autoplay{% endif %}
+    {% if include.loop != false %}loop{% endif %}
+    {% if include.muted != false %}muted{% endif %}
+    class="standalone"
+    {% if include.style %}style="{{ include.style }}"{% endif %}
+  >
+    {% if include.poster %}
+      poster="{{ include.poster }}"
+    {% endif %}
+  
+    <source src="{{ include.src }}" type="video/mp4">
+    您的浏览器不支持视频标签。
+  </video>
+  
+  {% if include.caption %}
+    <p class="video-caption">{{ include.caption }}</p>
+  {% endif %}
+</div>

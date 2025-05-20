@@ -33,7 +33,10 @@ post_chatgpt_1: _posts/2023-02-08-what-chatgpt-mean-for-technical-writers.md
 
 于是，我问了一下大眼夹：Firebase 是什么? 你和 Firebase 之间有什么关系?
 
-![大眼夹正在回答问题](https://vdn6.vzuu.com/SD/398c66ca-c086-11ed-9c02-aa73a14c00b2-v1_f4_t2_MGMPYJDl.mp4?pkey=AAXs6WkxW4JwpjXO5z2Iqo1bH_Sxw9o0_5VAzO_Y9mXGi0UYIeZ-D1fw6iUnQVbJPv1yMWdaCcYP5w0R8kpmxJ3h&bu=078babd7&c=avc.1.1&expiration=1747629974&f=mp4&pu=078babd7&v=ks6 "大眼夹正在回答问题"){:standalone}
+{% include video.html
+  src="https://vdn6.vzuu.com/SD/398c66ca-c086-11ed-9c02-aa73a14c00b2-v1_f4_t2_MGMPYJDl.mp4?pkey=AAVvPgZ-vIFLNH59tEQE9Qz3EZ3BfWf-fNGFI1koi4iTAkTEy3uiTzPnQcq5P6jfHrtktOh5y1YhgZ53BekcI2Zl&bu=078babd7&c=avc.1.1&expiration=1747733710&f=mp4&pu=078babd7&v=ks6"
+  poster="https://pic3.zhimg.com/v2-a49c67be8d9ea01cc66d8b773f1123b6_b.jpg"
+%}
 
 大眼夹的回答提供了不少有用的信息，但也有一些地方让我似懂非懂。如果想知道地更清楚一些，我还可以针对回答中的关键术语追问出更多信息。
 
