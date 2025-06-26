@@ -12,9 +12,9 @@ title_separator          : "|"
 # subtitle                 : site tagline that appears below site title in masthead
 name                     : "王烨"
 description              : "解密文档技术，精研技术写作，评说行业百态。"
-url                      : "https://www.docsimpo.work"
+# url                      : "https://www.tcblabber.cn"
 # baseurl                  : "/awesome-technical-writing-learning"
-repository               : "wongyah/docsimpo.work"
+repository               : "wongyah/wongyah.github.io"
 # teaser                   : path of fallback teaser image used in the "Related posts", e.g. "/assets/images/500x300.png"
 logo: "/assets/images/logo/docsimpo-logo@2x.png"
 # masthead_title           :  "docSimpo" # overrides the website title displayed in the masthead, use " " for no title
