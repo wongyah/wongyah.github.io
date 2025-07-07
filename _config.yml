@@ -1,6 +1,6 @@
 # Jekyll theme setting
-# theme: minimal-mistakes-jekyll
-remote_theme: "mmistakes/minimal-mistakes"
+theme: minimal-mistakes-jekyll
+# remote_theme: "mmistakes/minimal-mistakes"
 # Themes avaiable: "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "default"
 minimal_mistakes_skin    : "contrast"
 
@@ -12,8 +12,9 @@ title_separator          : "|"
 # subtitle                 : site tagline that appears below site title in masthead
 name                     : "王烨"
 description              : "解密文档技术，精研技术写作，评说行业百态。"
-# url                      : "https://www.tcblabber.cn"
-# baseurl                  : "/awesome-technical-writing-learning"
+home_page                 : "/"
+# url                      : ""
+# baseurl                  : ""
 repository               : "wongyah/wongyah.github.io"
 # teaser                   : path of fallback teaser image used in the "Related posts", e.g. "/assets/images/500x300.png"
 logo: "/assets/images/logo/docsimpo-logo@2x.png"
@@ -86,7 +87,7 @@ footer:
       url: "https://mp.weixin.qq.com/s?__biz=MzA5NzU4ODAwOQ==&mid=2247487464&idx=1&sn=c57c1b993dcb2c166d88bc2c0d414a10&chksm=909fc9aea7e840b874ebe3e37d0e2a58de7c4c4c5e18f1355b1a4be6378b5752c571c4aeddd4&token=587590048&lang=zh_CN#rd"
     - label: "知乎"
       icon: "fab fa-fw fa-zhihu"
-      url: "https://www.zhihu.com/people/docSimpo/columns"
+      url: "https://www.zhihu.com/column/c_1548252009672929280"
     - label: "邮箱"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:wongyah@126.com?subject=Awesome%20technical%20writing%20learning"
