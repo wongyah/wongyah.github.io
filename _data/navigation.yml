@@ -1,8 +1,10 @@
 main:
   - title: "博客"
     url: /blog/
-  - title: "资源"
-    url: "https://resources.docsimpo.work/"
+  - title: "学习教程"
+    url: "https://markdown-syntax-hub.tcblabber.cn/"
+  - title: "文档范例"
+    url: "https://electric-machinery.tcblabber.cn/"
 post_tags:
   - title: "技术写作"
     url: /blog/technical-writing/
