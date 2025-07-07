@@ -1,5 +1,20 @@
 ---
-title: "首页"
+layout: splash
+permalink: /
+header: 
+  image: /assets/images/hero/hero-driver-room.jpg
+  image_description: "横幅图片：汽车驾驶室系统"
+slogan:
+  - excerpt: "解密文档技术，精研技术写作，评说行业百态。"
+headlines:
+  - title: '<i class="fas fa-graduation-cap fa-3x"></i>'
+    excerpt: "[培训教程](https://markdown-syntax-hub.tcblabber.cn/)"
+  - title: '<i class="fas fa-book fa-3x"></i>'
+    excerpt: "[文档范例](https://electric-machinery.tcblabber.cn/)"
+  - title: '<i class="fas fa-blog fa-3x"></i>'
+    excerpt: "[技术博客](/blog/)"
 ---
 
-这是首页。
+{% include feature_row id="headlines"%}
+
+{% include feature_row id="slogan" type="center" %}

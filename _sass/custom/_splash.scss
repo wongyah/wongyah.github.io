@@ -1,0 +1,41 @@
+/* ==========================================================================
+   SPLASH PAGE
+   ========================================================================== */
+
+.splash {
+  .page__content {
+    background-color: transparent;
+    border-radius: none;
+    box-shadow: none;
+    padding: 1.5rem 0;
+
+    .feature__wrapper {
+      border-bottom: none;
+    }
+  }
+
+  .page__content h1, .page__content h2, .page__content h3, .page__content h4, .page__content h5, .page__content h6 {
+    text-indent: 0;
+  }
+}
+
+.feature__item {
+
+  .archive__item-title, .archive__item-excerpt {
+    text-align: center;
+  }
+
+}
+
+.feature__item--center .archive__item {
+  padding-bottom: 0;
+
+  &:hover {
+    box-shadow: none;
+  }
+
+  p {
+    margin: 1.3em 0;
+  }
+}
+
