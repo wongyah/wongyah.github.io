@@ -2,7 +2,10 @@
    MASTHEAD
    ========================================================================== */
 
-   .masthead{
-    background-color: $masthead-bg-color;
-  }
-  
+.masthead{
+  background-color: $masthead-bg-color;
+}
+
+.site-logo img {
+  max-height: 1.5rem;
+}
