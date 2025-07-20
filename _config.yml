@@ -17,7 +17,7 @@ home_page                 : "/"
 # baseurl                  : ""
 repository               : "wongyah/wongyah.github.io"
 # teaser                   : path of fallback teaser image used in the "Related posts", e.g. "/assets/images/500x300.png"
-logo: "/assets/images/logo/logo_v3_d.png"
+logo: "/assets/images/logo/logo.png"
 # masthead_title           :  "docSimpo" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : true # true, false (default)
 # words_per_minute         : 200
@@ -46,7 +46,7 @@ atom_feed:
 #   username               :
 #   app_id                 :
 #   publisher              :
-og_image                 : /assets/images/logo/Logo_v3_d.png
+og_image                 : /assets/images/logo/logo_v3.png
 
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
