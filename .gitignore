@@ -4,6 +4,7 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 .gitignore
+Gemfile.lock
 
 # Ignore local editor related staff
 .vscode
