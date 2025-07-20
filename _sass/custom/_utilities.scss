@@ -1,0 +1,47 @@
+/* ==========================================================================
+   UTILITY CLASSES
+   ========================================================================== */
+
+/*
+   Visibility
+   ========================================================================== */
+
+/* http://www.456bereastreet.com/archive/200711/screen_readers_sometimes_ignore_displaynone/ */
+
+.greedy-nav__toggle {
+  &:before {
+    @supports (pointer-events: none) {
+      background-color: #6699cc;
+    }
+  }
+}
+
+/* Navicon */
+.navicon {
+  background: $masthead-link-color;
+  
+  &:before,
+  &:after {
+    background: $masthead-link-color;
+  }
+}
+
+
+.greedy-nav__toggle:hover {
+  .navicon,
+  .navicon:before,
+  .navicon:after {
+    background: $masthead-link-color;
+  }
+
+ }
+
+
+
+.fa-zhihu {
+  color: $zhihu-color;
+}
+
+.fa-weixin {
+  color: $weixin-color;
+}

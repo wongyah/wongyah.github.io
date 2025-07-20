@@ -1,79 +1,154 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole site, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing these this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# Jekyll theme setting
+theme: minimal-mistakes-jekyll
+# remote_theme: "mmistakes/minimal-mistakes"
+# Themes avaiable: "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "default"
+minimal_mistakes_skin    : "contrast"
 
 # Site settings
-title: 技术传播百态说
-description:  解密文档技术，精研技术写作，评说行业百态
-url: "https://www.docsimpo.work"
+locale                   : "zh-CN"
+date_format              : "%Y-%m-%d"
+title                    : "技术传播百态说"
+title_separator          : "|"
+# subtitle                 : site tagline that appears below site title in masthead
+name                     : "王烨"
+description              : "解密文档技术，精研技术写作，评说行业百态。"
+home_page                 : "/"
+# url                      : ""
+# baseurl                  : ""
+repository               : "wongyah/wongyah.github.io"
+# teaser                   : path of fallback teaser image used in the "Related posts", e.g. "/assets/images/500x300.png"
+logo: "/assets/images/logo/logo_v3_d.png"
+# masthead_title           :  "docSimpo" # overrides the website title displayed in the masthead, use " " for no title
+# breadcrumbs            : true # true, false (default)
+# words_per_minute         : 200
+atom_feed:
+  # path                   : blank (default) uses feed.xml
+  hide                   : true # false (default), true
 
-# 存储位置 Where they are
-collections:
-  markdown-tutorial:
-    output: true
-    docType: tutorial
-    permalink: doc-tech/:collection/:name:output_ext
-  electric-machinery-principles:
-    output: true
-    docType: tutorial
-    permalink: ics-tutorials/:collection/:name:output_ext
-  style-guide-en:
-    output: true
-    docType: tutorial
-    permalink: style-guides/:collection/:name:output_ext
+# search engine
+# search                   : false (default), true
+# search_full_content      : true, false (default)
+# search_provider          : lunr (default), algolia, google
+# lunr:
+  # search_within_pages    : false (default), true
 
+# SEO Related
+# google_site_verification :
+# bing_site_verification   :
+# naver_site_verification  :
+# yandex_site_verification :
+# baidu_site_verification  :
 
-# 输出 Outputing
+# Social Sharing
+# twitter:
+#   username               :
+# facebook:
+#   username               :
+#   app_id                 :
+#   publisher              :
+og_image                 : /assets/images/logo/Logo_v3_d.png
+
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
+# social:
+  # type                   : Person or Organization (defaults to Person)
+  # name                   : If the user or organization name differs from the site's name
+  # links: An array of links to social media profiles
+
+# Analytics
+# analytics:
+  # provider               : false (default), "google", "google-universal", "google-gtag", "custom"
+  # google:
+  #   tracking_id          :
+    # anonymize_ip         : true, false (default)
+
+# Site Author
+author:
+  name             : "王烨"
+  avatar           : "https://avatars.githubusercontent.com/u/38174537?s=400&u=d532db4c31141ce67458174d2dc8b65782a80237&v=4"
+  bio              : "敲得动代码、玩得转微积分的技术写作职业选手。"
+  location         : "中国 北京"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/wongyah"
+    - label: "公众号"
+      icon: "fab fa-fw fa-weixin"
+      url: "https://mp.weixin.qq.com/s?__biz=MzA5NzU4ODAwOQ==&mid=2247487464&idx=1&sn=c57c1b993dcb2c166d88bc2c0d414a10&chksm=909fc9aea7e840b874ebe3e37d0e2a58de7c4c4c5e18f1355b1a4be6378b5752c571c4aeddd4&token=587590048&lang=zh_CN#rd"
+
+# Site Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/wongyah"
+    - label: "公众号"
+      icon: "fab fa-fw fa-weixin"
+      url: "https://mp.weixin.qq.com/s?__biz=MzA5NzU4ODAwOQ==&mid=2247487464&idx=1&sn=c57c1b993dcb2c166d88bc2c0d414a10&chksm=909fc9aea7e840b874ebe3e37d0e2a58de7c4c4c5e18f1355b1a4be6378b5752c571c4aeddd4&token=587590048&lang=zh_CN#rd"
+    - label: "知乎"
+      icon: "fab fa-fw fa-zhihu"
+      url: "https://www.zhihu.com/column/c_1548252009672929280"
+    - label: "邮箱"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:wongyah@126.com?subject=Awesome%20technical%20writing%20learning"
+
+after_footer_scripts:
+  - "/assets/js/github-alerts.js"
+  - https://cdn.bootcdn.net/ajax/libs/mermaid/10.9.0/mermaid.min.js
+  - "/assets/js/mathjax-for-kramdown.js"
+  - https://cdn.bootcdn.net/ajax/libs/mathjax/3.2.2/es5/tex-mml-svg.js
+
+# Reading Files
+include:
+  - _pages
+exclude:
+  - code-of-conduct.md
+  - contributing.md
+  - license.md
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
 
 defaults:
   - scope:
       path: ""
+      type: posts
     values:
-      layout: "default"
-      author: "王烨"
+        layout: post
+        toc: true
+        toc_sticky: true
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      sidebar:
+        - title: "关注我"
+          image: "/assets/images/socia-media/qrcode_wechat_258.jpg"
+          image_alt: "微信搜一搜关注我的公众号：技术传播百态说 (ID: tc_blabber)"
+          text: "微信扫一扫关注我的公众号，第一时间阅读技术传播领域的技术文章。"
+        - title: "文章类别"
+        - nav: "post_tags"
   - scope:
       path: ""
-      type: "posts"
     values:
-      isPost: true
-      layout: "post"
-      permalink: "/:categories/:title:output_ext"
-  - scope:
-      path: ""
-      type: "markdown-tutorial"
-    values:
-      layout: "tutorial-2l"
-      headerImage: "/assets/images/tutorial/markdown-header-image-20mpx.jpg"
-  - scope:
-      path: ""
-      type: "style-guide-en"
-    values:
-      layout: "tutorial-2l"
-      headerImage: "/assets/images/tutorial/markdown-header-image-20mpx.jpg"
-  - scope:
-      path: ""
-      type: "manual-writing-cases"
-    values:
-      layout: "tutorial"
-      headerImage: "/assets/images/tutorial/markdown-header-image-20mpx.jpg"
-  - scope:
-      path: ""
-      type: "electric-machinery-principles"
-    values:
-      layout: "tutorial-2l"
-      headerImage: "/assets/images/tutorial/markdown-header-image-20mpx.jpg"
-  - scope:
-      path: "*/index.html"
-    values:
-      layout: "page-container"
+      layout: single
+      author_profile: true
 
-disable_disk_cache: BOOL
 
+# Plugins
 plugins:
-  - jekyll-seo-tag
+  - jekyll-include-cache
+
+# Building
+disable_disk_cache: BOOL
+sass:
+  quiet_deps: true

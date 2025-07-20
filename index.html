@@ -1,93 +1,20 @@
 ---
-headerImage: "/assets/images/home/header-image-home-20mpx.jpg"
+layout: splash
+permalink: /
+header: 
+  image: /assets/images/hero/hero-driver-room.jpg
+  image_description: "横幅图片：汽车驾驶室系统"
+slogan:
+  - excerpt: "解密文档技术，精研技术写作，评说行业百态。"
+headlines:
+  - title: '<i class="fas fa-graduation-cap fa-3x"></i>'
+    excerpt: "[培训教程](https://markdown-syntax-hub.tcblabber.cn/)"
+  - title: '<i class="fas fa-book fa-3x"></i>'
+    excerpt: "[文档范例](https://electric-machinery.tcblabber.cn/)"
+  - title: '<i class="fas fa-blog fa-3x"></i>'
+    excerpt: "[技术博客](/blog/)"
 ---
 
-<!-- 广告语-slogan -->
-<div class="container-fluid docsimpo-bg-gradient-slogan">
-  <div class="container slogan-height mascot-in-slogan header-dodge">
-    <div class="row">
-      <div class="col">
+{% include feature_row id="headlines"%}
 
-        <div class="slogan-gap-top">
-          <h1 class="font-size-slogan text-center text-md-left slogan-font">贴近用户</h1>
-          <h2 class="font-size-slogan text-center text-md-left slogan-line-gap slogan-font"><span id="cong"><i>从</i></span>产品文档开始</h2>
-          <p class="font-size-aux text-center text-md-left slogan-aux-font">每个产品，都值得一份好文档；</p>
-          <p class="font-size-aux text-center text-md-left slogan-aux-font">每个用户，都值得精心以待。</p>
-        </div>
-        
-        
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- 业务版块 -->
-<div class="container-fluid border-bottom">
-  <div class="container">
-    <div class="row services">
-
-      <div class="col-lg px-lg-5">
-        <div class="card content-link-service">
-          <div class="image-box col-md-6 col-lg d-flex justify-content-center align-items-center">
-            <img src="assets/images/home/linkcontent-service-manuals.png" alt="产品手册服务链接图片" class="link-image">
-          </div>
-          <div class="card-body col-md-6 col-lg">
-            <h4 class="card-title">产品手册</h4>
-            <p class="card-text">遵循久经验证的技术写作规范，应用最前沿的文档处理技术，让您的产品手册尽显大气端庄。</p>
-            <p class="card-link mt-1"><a href="{% link services/technical-documentation.md %}" class="btn btn-link">了解详情</a></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg px-lg-5">
-        <div class="card content-link-service">
-          <div class="image-box col-md-6 col-lg d-flex justify-content-center align-items-center">
-            <img src="assets/images/home/linkcontent-service-webcontent.png" alt="网站内容维护服务链接图片" class="link-image">
-          </div>
-          <div class="card-body col-md-6 col-lg">
-            <h4 class="card-title">技术营销</h4>
-            <p class="card-text">让您的产品和服务在网站、公众号以及各大内容平台上有里有面儿有关注。</p>
-            <p class="card-link mt-1"><a href="{% link services/technical-marketing.md %}" class="btn btn-link mt-1">了解详情</a></p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</div>
-
-<div class="container-fluid border-bottom">
-  <div class="container">
-    <div class="row services">
-
-      <div class="col-lg px-lg-5">
-        <div class="card content-link-service">
-          <div class="image-box col-md-6 col-lg d-flex justify-content-center align-items-center">
-            <img src="assets/images/home/linkcontent-service-training.png" alt="培训与咨询服务链接图片" class="link-image">
-          </div>
-          <div class="card-body col-md-6 col-lg">
-            <h4 class="card-title">咨询与培训</h4>
-            <p class="card-text">帮助您的团队快速提高技术沟通的效率、产品文档的编写质量和交付速度。</p>
-            <p class="card-link mt-1"><a href="{% link services/advisory-and-training.md %}" class="btn btn-link mt-1">了解详情</a></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg px-lg-5">
-        <div class="card content-link-service">
-          <div class="image-box col-md-6 col-lg d-flex justify-content-center align-items-center">
-            <img src="assets/images/home/linkcontent-cooperation.png" alt="赞助与支持链接图片" class="link-image">
-          </div>
-          <div class="card-body col-md-6 col-lg">
-            <h4 class="card-title">合作与支持</h4>
-            <p class="card-text">一起发掘优质在线内容的获客潜力，解锁全民上网时代的流量密码。</p>
-            <p class="card-link mt-1"><a href="{% link services/cooperation-and-support.md %}" class="btn btn-link mt-1">了解详情</a></p>
-          </div>
-        </div>
-      </div>
-      
-    </div>
-  </div>
-</div>
-
+{% include feature_row id="slogan" type="center" %}

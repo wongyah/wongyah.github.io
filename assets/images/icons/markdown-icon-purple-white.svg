@@ -1,8 +1,0 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 198 118">
-  <defs>
-    <style>.cls-1{fill:#9e90c4;}.cls-2{fill:#fff;}</style>
-  </defs>
-  <title>markdown-icon-purple-white</title>
-  <path class="cls-1" d="M15,5H193a10,10,0,0,1,10,10v98a10,10,0,0,1-10,10H15A10,10,0,0,1,5,113V15A10,10,0,0,1,15,5Z" transform="translate(-5 -5)"/>
-  <path class="cls-2" d="M30,98V30H50L70,55,90,30h20V98H90V59L70,84,50,59V98Zm125,0L125,65h20V30h20V65h20Z" transform="translate(-5 -5)"/>
-</svg>

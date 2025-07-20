@@ -1,0 +1,38 @@
+/*!
+ * Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+ * Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+ * Licensed under MIT (https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE)
+*/
+
+/* Bootstrap Mixins */
+@import "bootstrap/mixins";
+
+/*
+ * Core CSS
+ * _reset.scss: custom font size
+ * _base.scss: custom font weight */
+ @import "custom/reset";
+ @import "custom/base";
+ @import "custom/tables";
+ 
+ /* Components */
+ @import "custom/masthead";
+ @import "custom/navigation";
+ @import "custom/footer";
+ 
+ /* Utility classes */
+ @import "custom/utilities";
+ 
+ /* Layout specific */
+ @import "custom/archive";
+ @import "custom/sidebar";
+ @import "custom/page";
+ @import "custom/post";
+ 
+ /* Contents */
+ @import "custom/github-alerts";
+ @import "custom/mermaid";
+ @import "custom/myvideo";
+ 
+ /* Contents on splash page */
+ @import "custom/splash";

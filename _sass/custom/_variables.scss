@@ -1,0 +1,71 @@
+/* ==========================================================================
+   Variables
+   ========================================================================== */
+
+/* system typefaces */
+$serif: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", "Noto Sans", "Liberation Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$sans-serif: $serif;
+$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+
+/*
+   colors
+   ========================================================================== */
+
+$gray: #7a8288 !default;
+$dark-gray: mix(#000, $gray, 50%) !default;
+$darker-gray: mix(#000, $gray, 60%) !default;
+$light-gray: mix(#fff, $gray, 50%) !default;
+$lighter-gray: mix(#fff, $gray, 90%) !default;
+
+$background-color: $lighter-gray;
+$page-background-color: #fff;
+$text-color: #202124;
+$muted-text-color: mix(#fff, $text-color, 50%);
+$primary-color: #E08A8A;
+$footer-background-color: #5A8BB9;
+$link-color: #0065b3;
+$masthead-link-color: #ffffffa0;
+$masthead-link-color-hover: #ffffff;
+
+/* user-defined variables */
+$masthead-bg-color: $footer-background-color;
+$masthead-site-title-color: #ffffff;
+$masthead-link-color-current: $masthead-link-color-hover;
+$masthead-link-padding-vertical: 0.25em;
+$masthead-link-padding-horizontal-current: 0.5em;
+$focus-color: mix(#000000, $masthead-bg-color, 10%) !default;
+
+/* type scale */
+$type-size-1: 2.441em !default; // ~39.056px
+$type-size-2: 1.953em !default; // ~31.248px
+$type-size-3: 1.563em !default; // ~25.008px
+$type-size-4: 1.25em !default; // ~20px
+$type-size-5: 1em !default; // ~16px
+$type-size-6: 0.875em !default; // ~14px
+$type-size-7: 0.75em !default; // ~12px
+$type-size-8: 0.625em !default; // ~10px
+
+/* headline scale */
+$h-size-1: 2em !default; // ~32px
+$h-size-2: 1.5em !default; // ~24px
+$h-size-3: 1.25em !default; // ~20px
+$h-size-4: 1.125em !default; // ~18px
+$h-size-5: 1.0625em !default; // ~17px
+$h-size-6: 1em !default; // ~16px
+
+/* brands */
+$zhihu-color: #1772f6;
+$weixin-color: #2aae67; // #07c160 (optional)
+
+/* Others */
+$border-radius-em: 0.25em !default;
+$border-radius-page: 2px !default;
+$border-radius-card: 0.5em !default;
+$box-shadow-page: 0px 2px 5px rgba(0, 0, 0, 0.25) !default;
+$box-shadow-item: -2px 5px 5px rgba(0, 0, 0, 0.25) !default;
+$font-weight-normal: 400 !default;
+$font-weight-strong: 600 !default;
+$padding-page: 6% !default;
+$padding-vertical: 1em !default;
+// $padding-page: 40px !default;
+// $padding-card: 20px !default;

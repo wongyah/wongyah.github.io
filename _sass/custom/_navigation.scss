@@ -1,0 +1,131 @@
+/* ==========================================================================
+   NAVIGATION
+   ========================================================================== */
+
+/*
+   Priority plus navigation
+   ========================================================================== */
+
+.greedy-nav {
+   background: $masthead-bg-color;
+
+   .hidden-links {
+      border: 1px solid #fff;
+      background: $focus-color;
+
+      .masthead__menu-item {
+         a{
+            color: $masthead-link-color-hover;
+         }
+      }
+      
+   }
+
+   a {
+      &.site-title {
+         color: $masthead-site-title-color;
+      }
+   }
+
+   .visible-links {
+      a {
+         padding-top: $masthead-link-padding-vertical;
+         padding-bottom: $masthead-link-padding-vertical;
+         &:before {
+            height: 2px;
+            background: $masthead-link-color-hover;
+         }
+
+         &:hover:before {
+            -webkit-transform: scale(1,1);
+            -ms-transform: scale(1,1);
+            transform: scale(1,1); // reveal
+          }
+
+         &.current {
+            padding-left: $masthead-link-padding-horizontal-current;
+            padding-right: $masthead-link-padding-horizontal-current;
+            color: $masthead-link-color-current;
+            background-color: $focus-color;
+            border-radius: 0.25em;
+         }
+
+         &.disabled {
+            pointer-events: none;
+            cursor: default;
+         }
+    
+      }
+   }
+}
+
+/*
+     Table of contents navigation
+     ========================================================================== */
+
+.toc {
+   background-color: $page-background-color;
+
+   .nav__title {
+      background: $primary-color;
+      font-size: $type-size-6;
+      text-indent: 0;
+
+   }
+
+   @include breakpoint($large) {
+      opacity: 0.75;
+      box-shadow: none;
+   }
+
+   &:hover {
+      box-shadow: $box-shadow-page;
+      -webkit-transition: box-shadow 0.2s ease-in-out;
+      transition: box-shadow 0.2s ease-in-out;
+      opacity: 1;
+      -webkit-transition: opacity 0.2s ease-in-out;
+      transition: opacity 0.2s ease-in-out;
+    }
+ 
+}
+
+.toc__menu {
+  @include breakpoint($large) {
+     font-size: $type-size-6;
+  }
+
+  a {
+    font-weight: normal;
+
+    &:hover {
+       color: $link-color;
+    }
+  }
+}
+
+.nav__items > li{
+
+   .nav__sub-title {
+      font-size: 0.8em;
+      font-weight: normal;
+      border-bottom: none;
+   }
+   
+   ul li {
+      margin: 0.5em 0 0.5em 1em;
+      font-size: 0.8em;
+   }
+
+}
+
+// 设置侧栏目录的样式：激活时高亮显示
+.nav__list .nav__items {
+
+   .active, .my_active .nav__sub-title {
+      color: $primary-color;
+      font-weight: bold;
+   }
+
+}
+
+

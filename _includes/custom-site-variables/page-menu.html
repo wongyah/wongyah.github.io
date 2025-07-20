@@ -1,7 +1,0 @@
-    <!-- 页面所属的菜单项 -->
-    {%- assign page-menu-en = collection.permalink | split: "/" | first -%}
-    {%- for item in site.data.webinfo.header-menu -%}
-      {%- if item.link contains page-menu-en -%}
-        {%- assign page-menu-cn = item.name -%}
-      {%- endif -%}
-    {%- endfor -%}

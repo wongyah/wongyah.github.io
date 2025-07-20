@@ -1,9 +1,0 @@
-<!-- 提取教程的数据文件
-     get the data file of this tutorial -->
-{%- for tutorhash in site.data.tutormetas -%}
-  {%- assign tutormeta = tutorhash[1] -%}
-  {%- if tutormeta.collection == page.collection -%}
-    {%- break -%}
-  {%- endif -%}
-{%- endfor -%}
-  
