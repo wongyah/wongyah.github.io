@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/markdown-syntax-hub/:path*",
+      "destination": "https://markdown-syntax-hub.tcblabber.cn/:path*"
+    }
+  ]
+}
