@@ -1,20 +1,20 @@
 {
-  // "rewrites": [
-  //   {
-  //     "source": "/markdown-syntax-hub/:path*",
-  //     "destination": "https://markdown-syntax-hub.tcblabber.cn/:path*"
-  //   }
-  // ]
-    "rewrites": [
+  "rewrites": [
     {
-      "source": "/:path*",
-      "has": [
-        {
-          "type": "host",
-          "value": "markdown-syntax-hub.tcblabber.cn"
-        }
-      ],
-      "destination": "/markdown-syntax-hub.tcblabber.cn/:path*"
+      "source": "/markdown-syntax-hub/:path*",
+      "destination": "https://markdown-syntax-hub.tcblabber.cn/:path*"
     }
   ]
+  //   "rewrites": [
+  //   {
+  //     "source": "/:path*",
+  //     "has": [
+  //       {
+  //         "type": "host",
+  //         "value": "markdown-syntax-hub.tcblabber.cn"
+  //       }
+  //     ],
+  //     "destination": "/markdown-syntax-hub.tcblabber.cn/:path*"
+  //   }
+  // ]
 }
