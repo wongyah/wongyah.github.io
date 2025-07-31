@@ -5,16 +5,4 @@
       "destination": "https://markdown-syntax-hub.tcblabber.cn/:path*"
     }
   ]
-  //   "rewrites": [
-  //   {
-  //     "source": "/:path*",
-  //     "has": [
-  //       {
-  //         "type": "host",
-  //         "value": "markdown-syntax-hub.tcblabber.cn"
-  //       }
-  //     ],
-  //     "destination": "/markdown-syntax-hub.tcblabber.cn/:path*"
-  //   }
-  // ]
 }
