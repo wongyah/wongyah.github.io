@@ -1,6 +1,6 @@
 main:
   - title: "学习教程"
-    url: "https://markdown-syntax-hub.tcblabber.cn/"
+    url: "/markdown-syntax-hub/"
   - title: "文档范例"
     url: "https://electric-machinery.tcblabber.cn/"
   - title: "博客"
