@@ -5,7 +5,7 @@ header:
   teaser: https://pica.zhimg.com/70/v2-e56468c422f88755f8251dd06ebce6e7_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_image: https://pica.zhimg.com/70/v2-e56468c422f88755f8251dd06ebce6e7_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_filter: 0.5
-tags: 行业新闻
+tags: 行业观察
 ---
 
 近日，谷歌又双叒叕摊上事儿了，还是一份 API 文档惹出来的大事！

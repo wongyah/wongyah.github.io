@@ -5,7 +5,7 @@ header:
   teaser: https://picx.zhimg.com/70/v2-e159e97e304e857639cac1d49d396824_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_image: https://picx.zhimg.com/70/v2-e159e97e304e857639cac1d49d396824_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_filter: 0.5
-tags: 行业新闻 内容管理
+tags: 行业观察 内容管理
 ---
 
 春节前查资料时候，我的浏览器又慢成树懒了。打开收藏夹一看， 果然不出所料，我随手收藏的网页又变成一堆一堆的了。

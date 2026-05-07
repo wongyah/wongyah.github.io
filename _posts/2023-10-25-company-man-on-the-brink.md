@@ -5,7 +5,7 @@ header:
   teaser: https://picx.zhimg.com/70/v2-4d2385ec167fd12205038f8cf8a6db66_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_image: https://picx.zhimg.com/70/v2-4d2385ec167fd12205038f8cf8a6db66_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_filter: 0.5
-tags: 行业新闻
+tags: 行业观察
 ---
 
 成为技术文档工程师之前，我曾做过几年总经理助理，负责有关国外业务的一切事宜。

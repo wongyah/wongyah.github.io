@@ -5,7 +5,7 @@ header:
   teaser: https://picx.zhimg.com/70/v2-7c2800ddf5ac86a68023873f5ea10965_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_image: https://picx.zhimg.com/70/v2-7c2800ddf5ac86a68023873f5ea10965_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_filter: 0.5
-tags: 行业新闻
+tags: 行业观察
 ---
 
 最近，Snowflake 裁掉整个技术文档团队的消息在技术传播圈儿掀起热议。说实话，我也是从同行的公众号文章《[2026 年，我为什么不建议入行技术写作]》里注意到的。这篇文章一发，炸出了不少惴惴不安的小伙伴儿。一位 @技术写作研习社 的同学立即隔空表达不同观点，用技术文档的核心价值力挺[技术写作不该退场]……

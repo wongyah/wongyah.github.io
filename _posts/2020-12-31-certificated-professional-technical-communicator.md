@@ -4,7 +4,7 @@ header:
   teaser: https://picx.zhimg.com/70/v2-38ae4e9727197e61193b0dc9598d37fc_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_image: https://picx.zhimg.com/70/v2-38ae4e9727197e61193b0dc9598d37fc_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_filter: 0.5
-tags: 行业新闻
+tags: 行业观察
 ---
 
 技术写作，早在 20 世纪 50 年代初就引起美国工业界的重视（尤其是航空、军工、电子和生产制造领域），并且出现了专门致力于发展技术传播的组织。

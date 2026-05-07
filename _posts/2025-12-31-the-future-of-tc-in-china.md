@@ -5,7 +5,7 @@ header:
   teaser: https://pica.zhimg.com/70/v2-49b3fb0fd2197504725b29923236b57f_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_image: https://pica.zhimg.com/70/v2-49b3fb0fd2197504725b29923236b57f_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_filter: 0.5
-tags: 行业新闻
+tags: 行业观察
 ---
 
 时光荏苒，岁月如梭。一眨眼儿，一年又要过去了！

@@ -5,7 +5,7 @@ header:
   teaser: https://pic1.zhimg.com/70/v2-53fc3094ab61d67cf87c98ad9f6746aa_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_image: https://pic1.zhimg.com/70/v2-53fc3094ab61d67cf87c98ad9f6746aa_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_filter: 0.5
-tags: 行业新闻
+tags: 行业观察
 toc: false
 ---
 

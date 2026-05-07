@@ -5,7 +5,7 @@ header:
   teaser: https://picx.zhimg.com/70/v2-92284fb597053bd7c2947299dbf2427f_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_image: https://picx.zhimg.com/70/v2-92284fb597053bd7c2947299dbf2427f_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_filter: 0.5
-tags: 行业新闻 S1000D
+tags: 行业观察 S1000D
 toc: false
 ---
 

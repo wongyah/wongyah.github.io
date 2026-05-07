@@ -5,7 +5,7 @@ header:
   teaser: https://pica.zhimg.com/70/v2-1ad2f666d70403a95200d9dfbf29a17d_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_image: https://pica.zhimg.com/70/v2-1ad2f666d70403a95200d9dfbf29a17d_1440w.avis?source=172ae18b&biz_tag=Post
   overlay_filter: 0.5
-tags: 行业新闻
+tags: 行业观察
 ---
 
 前段时间，我在一篇文章里吐槽[国内的一些内容管理系统提供商盲目自信、藐视客户][CMS公司是大尾巴狼]（其实就是装大尾巴狼）时提到，我曾经是一名商务人员，对一些不入流的陋习也算是司空见惯、见怪不怪的。
