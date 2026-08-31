@@ -133,7 +133,7 @@ T 型人才是哈佛商学院教授桃莉丝·巴登 (Dorothy A. Leonard) 在 19
 6. 小米. [小米汽车招聘车身工艺工程师（生产制造）](https://xiaomi.jobs.f.mioffice.cn/index/position/7194838435273130093/detail?spread=W6B69ND). \[-]\[2026-04-30].
 7. Dorothy A. Leonard. [The Wellsprings of Knowledge](https://www.researchgate.net/publication/225070500_The_Wellsprings_of_Knowledge). \[1998-01]\[2026-05-01].
 8. 威廉·大内. Z理论: 美国企业界怎样迎接日本的挑战\[M]. 机械工业出版社, 2013.
-{:.refs}
+{:.small}
 
 <!-- links -->
 [2026 年，我为什么不建议入行技术写作]: https://mp.weixin.qq.com/s/5vEWiD_-WWJ3ZLm2Aj09YQ
