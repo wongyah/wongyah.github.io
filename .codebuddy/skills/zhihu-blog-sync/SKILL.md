@@ -1,6 +1,6 @@
 ---
 name: zhihu-blog-sync
-description: 将博客文章中的微信图片替换为知乎图片，并按照知乎文章修改链接。
+description: 将博客文章中的微信图片替换为知乎图片，并按照知乎文章修改链接。当用户提到“同步知乎文章”“同步博文”“同步博客文章”时调用。
 ---
 
 # 同步博客文章
@@ -10,7 +10,7 @@ description: 将博客文章中的微信图片替换为知乎图片，并按照�
 用户会手动把知乎文章页面 ${zhihu_article} 保存为 HTML 并格式化，使每个 `<figure>` 单独占一行。
 
 - ${zhihu_article}，格式化后的 HTML 文件
-- ${blog_article}，对应的博客文件（_posts 目录下的 Markdown 文件）
+- ${blog_article}，对应的博客文件（_posts 目录下的 Markdown 文件）。其中每张图片均已包含用户**手写的替换文本（alt）**，替换时须原样保留，AI 不擅自生成或覆盖。
 
 ## 执行步骤
 
@@ -31,9 +31,9 @@ description: 将博客文章中的微信图片替换为知乎图片，并按照�
 
 - 在 ${zhihu_article} 正文中搜索 `<figure` 开头的行，提取每个 `<img src="...">` 中的 URL，取 `_1440w.jpg` 高清版本。
 - 按文档顺序列出全部图片的 URL。
-- 在 ${blog_article} 中搜索微信图片链接 `https://mmbiz.qpic.cn/...` ，按顺序逐一替换。
-- 保留 ${blog_article} 图片原有的 `{:standalone}` 属性。
-- 每张图的对应关系需按上下文语义核对（图片前后文字内容），确保无错位。
+- **只替换微信图片的 URL 片段**（从 `https://mmbiz.qpic.cn` 到该行 `)` 或 `}` 之前的部分），**不要整行替换**，以完整保留用户手写的 `![替换文本](...){:standalone}` 结构。AI 不擅自生成或覆盖替换文本。
+- 保留 ${blog_article} 图片原有的 `{:standalone}` 等 kramdown 属性。
+- 每张图的对应关系需按上下文语义核对（图片前后文字内容、以及已有的替换文本），确保无错位。
 
 ### 3. 补齐正文链接
 
